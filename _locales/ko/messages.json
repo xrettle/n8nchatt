@@ -1,0 +1,642 @@
+{
+  "extensionName": {
+    "message": "n8nChat",
+    "description": "확장 프로그램의 이름."
+  },
+  "extensionDescription": {
+    "message": "AI를 사용하여 노드와 워크플로우를 생성하는 n8n 동반자.",
+    "description": "확장 프로그램에 대한 설명."
+  },
+  "activateOnCurrentPage": {
+    "message": "현재 페이지에서 활성화",
+    "description": "현재 페이지에서 확장 프로그램을 활성화하는 버튼 텍스트."
+  },
+  "activating": {
+    "message": "활성화 중...",
+    "description": "활성화 중일 때 표시되는 버튼 텍스트."
+  },
+  "activationFailed": {
+    "message": "활성화 실패",
+    "description": "활성화가 실패했을 때 표시되는 버튼 텍스트."
+  },
+  "notWorkflowPage": {
+    "message": "이 페이지는 워크플로우 페이지가 아닙니다",
+    "description": "현재 페이지가 워크플로우 페이지가 아닐 때 표시되는 버튼 텍스트."
+  },
+  "n8nChatActivated": {
+    "message": "n8nChat이 활성화되었습니다",
+    "description": "확장 프로그램이 활성화되었을 때 표시되는 메시지."
+  },
+  "selfHostingActivate": {
+    "message": "셀프 호스팅 중이신가요? 워크플로우에 로그인한 후 아래 버튼을 클릭하여 확장 프로그램을 활성화하세요:",
+    "description": "셀프 호스팅 사용자를 위한 확장 프로그램 활성화 방법 안내."
+  },
+  "autoActivateHosted": {
+    "message": "n8n에서 호스팅되는 워크플로우의 경우 n8nChat이 자동으로 활성화됩니다",
+    "description": "n8n에서 호스팅되는 워크플로우에 대한 자동 활성화 안내."
+  },
+  "n8nHostedLink": {
+    "message": "n8n에서 호스팅됨",
+    "description": "n8n에서 호스팅되는 워크플로우에 대한 링크 텍스트."
+  },
+  "noApiKeyWarning": {
+    "message": "n8nChat을 사용하려면 API 키가 필요합니다",
+    "description": "API 키가 설정되지 않았을 때 표시되는 경고 메시지."
+  },
+  "settings": {
+    "message": "설정",
+    "description": "설정 섹션의 제목."
+  },
+  "account": {
+    "message": "계정",
+    "description": "계정 설정 탭의 제목."
+  },
+  "api": {
+    "message": "API",
+    "description": "API 설정 탭의 제목."
+  },
+  "chat": {
+    "message": "채팅",
+    "description": "채팅 설정 탭의 제목."
+  },
+  "configureActivate": {
+    "message": "활성화 및 구성",
+    "description": "활성화 및 구성에 대한 제목 텍스트."
+  },
+  "provider": {
+    "message": "제공자",
+    "description": "API 제공자 선택 레이블."
+  },
+  "model": {
+    "message": "모델",
+    "description": "모델 선택 레이블."
+  },
+  "selectProvider": {
+    "message": "제공자 선택",
+    "description": "제공자 선택을 위한 플레이스홀더 텍스트."
+  },
+  "selectModel": {
+    "message": "모델 선택",
+    "description": "모델 선택을 위한 플레이스홀더 텍스트."
+  },
+  "enterApiKeyFirst": {
+    "message": "먼저 API 키를 입력하세요",
+    "description": "API 키가 입력되지 않았을 때 표시되는 플레이스홀더 텍스트."
+  },
+  "loading": {
+    "message": "로딩 중...",
+    "description": "모델 로딩 중에 표시되는 텍스트."
+  },
+  "noModelsFound": {
+    "message": "모델을 찾을 수 없습니다",
+    "description": "사용 가능한 모델이 없을 때 표시되는 메시지."
+  },
+  "apiKey": {
+    "message": "API 키",
+    "description": "API 키 입력 필드 레이블."
+  },
+  "enterApiKey": {
+    "message": "API 키 입력",
+    "description": "API 키 입력 필드의 플레이스홀더 텍스트."
+  },
+  "getOpenAiApiKey": {
+    "message": "OpenAI API 키 받기",
+    "description": "OpenAI API 키를 받기 위한 링크 텍스트."
+  },
+  "billingInfoRequiredBefore": {
+    "message": "다음이 필요합니다",
+    "description": "결제 정보에 대한 메시지의 링크 전 부분."
+  },
+  "billingInfoRequiredAfter": {
+    "message": "OpenAI와 설정됨",
+    "description": "결제 정보에 대한 메시지의 링크 후 부분."
+  },
+  "billingInfo": {
+    "message": "결제 정보",
+    "description": "결제 정보에 대한 링크 텍스트."
+  },
+  "setup": {
+    "message": " OpenAI와 설정됨",
+    "description": "결제 정보 설정에 대한 텍스트 부분."
+  },
+  "notWorking": {
+    "message": "작동하지 않나요?",
+    "description": "기능 문제에 대한 텍스트."
+  },
+  "setupTutorial": {
+    "message": "설정 튜토리얼 보기",
+    "description": "설정 튜토리얼에 대한 링크 텍스트."
+  },
+  "getAnthropicKey": {
+    "message": "Anthropic 키 받기",
+    "description": "Anthropic 키를 받기 위한 링크 텍스트."
+  },
+  "getGoogleKey": {
+    "message": "Google 키 받기",
+    "description": "Google 키를 받기 위한 링크 텍스트."
+  },
+  "noPublicKeyLink": {
+    "message": "(공개 키 링크가 제공되지 않음)",
+    "description": "공개 키 링크가 제공되지 않을 때 표시되는 텍스트."
+  },
+  "reasoningLevel": {
+    "message": "추론 수준",
+    "description": "추론 수준 선택 레이블."
+  },
+  "low": {
+    "message": "낮음",
+    "description": "낮은 추론 수준 옵션."
+  },
+  "medium": {
+    "message": "중간",
+    "description": "중간 추론 수준 옵션."
+  },
+  "high": {
+    "message": "높음",
+    "description": "높은 추론 수준 옵션."
+  },
+  "reasoningLevelTooltip": {
+    "message": "낮음은 속도와 토큰 사용의 경제성을 우선시하며, 높음은 더 많은 토큰 생성과 느린 응답을 대가로 더 철저한 추론을 선호합니다.",
+    "description": "추론 수준에 대한 툴팁."
+  },
+  "temperature": {
+    "message": "온도",
+    "description": "온도 슬라이더 레이블."
+  },
+  "temperatureTooltip": {
+    "message": "응답이 얼마나 창의적이거나 안전한지를 조절합니다. 낮은 설정은 응답을 예측 가능하고 주제와 관련성 있게 만들며, 높은 설정은 더 창의적이고 자유롭게 만듭니다.",
+    "description": "온도 설정에 대한 툴팁."
+  },
+  "topP": {
+    "message": "Top P",
+    "description": "Top P 슬라이더 레이블."
+  },
+  "topPTooltip": {
+    "message": "응답이 얼마나 다양할 수 있는지를 결정합니다. 낮은 설정은 가장 명백한 옵션에 충실하며, 높은 설정은 더 예상치 못한 옵션을 포함합니다.",
+    "description": "Top P 설정에 대한 툴팁."
+  },
+  "maxTokens": {
+    "message": "최대 토큰 수",
+    "description": "최대 토큰 수 슬라이더 레이블."
+  },
+  "maxTokensTooltip": {
+    "message": "응답에서 생성될 최대 토큰 수입니다. 낮은 값은 큰 요청에서 비용을 제어하는 데 도움이 될 수 있습니다.",
+    "description": "최대 토큰 수 설정에 대한 툴팁."
+  },
+  "restoreDefaults": {
+    "message": "기본값 복원",
+    "description": "기본값 복원 버튼 텍스트."
+  },
+  "warningExpensiveModel": {
+    "message": "경고: 이 모델은 비용이 많이 듭니다",
+    "description": "비싼 모델에 대한 경고 메시지."
+  },
+  "moreProvidersSoon": {
+    "message": "조기 액세스에서 곧 더 많은 제공자 추가",
+    "description": "다가오는 제공자에 대한 알림 메시지."
+  },
+  "includeWorkflowContext": {
+    "message": "워크플로우 컨텍스트 포함",
+    "description": "채팅에 워크플로우 컨텍스트를 포함하기 위한 레이블."
+  },
+  "includeWorkflowContextDesc": {
+    "message": "채팅 시작 시 현재 워크플로우 데이터를 보냅니다",
+    "description": "워크플로우 컨텍스트 포함에 대한 설명."
+  },
+  "saveUIPosition": {
+    "message": "UI 위치 저장",
+    "description": "UI 위치 저장 레이블."
+  },
+  "saveUIPositionDesc": {
+    "message": "새로고침 간 채팅 UI 위치를 저장합니다",
+    "description": "UI 위치 저장에 대한 설명."
+  },
+  "tools": {
+    "message": "도구",
+    "description": "도구 설정 섹션 제목."
+  },
+  "workflowAccess": {
+    "message": "워크플로우 액세스",
+    "description": "워크플로우 액세스 토글 레이블."
+  },
+  "workflowAccessDesc": {
+    "message": "채팅이 현재 워크플로우 데이터를 볼 수 있도록 허용합니다",
+    "description": "워크플로우 액세스에 대한 설명."
+  },
+  "nodeLibraryAccess": {
+    "message": "노드 라이브러리 액세스",
+    "description": "노드 라이브러리 액세스 토글 레이블."
+  },
+  "nodeLibraryAccessDesc": {
+    "message": "채팅이 설치된 노드 목록을 볼 수 있도록 허용합니다",
+    "description": "노드 라이브러리 액세스에 대한 설명."
+  },
+  "nodeCreation": {
+    "message": "노드 생성",
+    "description": "노드 생성 토글 레이블."
+  },
+  "nodeCreationDesc": {
+    "message": "채팅이 워크플로우에 노드를 추가할 수 있도록 허용합니다",
+    "description": "노드 생성에 대한 설명."
+  },
+  "nodeEditing": {
+    "message": "노드 편집",
+    "description": "노드 편집 토글 레이블."
+  },
+  "nodeEditingDesc": {
+    "message": "채팅이 워크플로우 내 노드 설정을 편집할 수 있도록 허용합니다",
+    "description": "노드 편집에 대한 설명."
+  },
+  "nodeRemoval": {
+    "message": "노드 제거",
+    "description": "노드 제거 토글 레이블."
+  },
+  "nodeRemovalDesc": {
+    "message": "채팅이 워크플로우에서 노드를 제거할 수 있도록 허용합니다",
+    "description": "노드 제거에 대한 설명."
+  },
+  "affiliateRecommendations": {
+    "message": "제휴 추천",
+    "description": "제휴 추천 토글 레이블."
+  },
+  "affiliateRecommendationsDesc": {
+    "message": "채팅이 외부 서비스 추천에 제휴 링크를 삽입할 수 있도록 허용합니다",
+    "description": "제휴 추천에 대한 설명."
+  },
+  "requiresSubscription": {
+    "message": "비활성화하려면 활성 구독이 필요합니다",
+    "description": "제휴 추천에 대한 툴팁으로, 구독이 필요한 경우."
+  },
+  "askAnything": {
+    "message": "워크플로우에 대해 무엇이든 물어보세요...",
+    "description": "채팅 입력 필드의 기본 플레이스홀더 텍스트."
+  },
+  "createSocialMediaWorkflow": {
+    "message": "소셜 미디어 자동화를 도와주는 워크플로우를 만들어 주세요.",
+    "description": "소셜 미디어 워크플로우에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "optimizeWorkflow": {
+    "message": "이 워크플로우를 어떻게 최적화할 수 있을까요?",
+    "description": "워크플로우 최적화에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "createStickyNotes": {
+    "message": "이 워크플로우를 설명하는 메모를 만들어 주세요.",
+    "description": "메모에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "workflowNotWorking": {
+    "message": "내 워크플로우가 작동하지 않는 이유는 무엇인가요?",
+    "description": "워크플로우 문제 해결에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "useAiAgentNode": {
+    "message": "AI 에이전트 노드는 어떻게 사용하나요?",
+    "description": "AI 에이전트 노드 사용에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "optimizeThis": {
+    "message": "이를 최적화할 방법이 있나요?",
+    "description": "최적화 요청에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "explainWorkflow": {
+    "message": "이 워크플로우를 단계별로 설명해 주세요.",
+    "description": "워크플로우 설명에 대한 제안된 플레이스홀더 텍스트."
+  },
+  "thinking": {
+    "message": "생각 중",
+    "description": "AI가 생각 중일 때의 상태 메시지."
+  },
+  "browsingNodes": {
+    "message": "노드 탐색 중",
+    "description": "AI가 노드를 탐색 중일 때의 상태 메시지."
+  },
+  "reviewingNodeConfig": {
+    "message": "노드 구성 검토 중",
+    "description": "AI가 노드 구성을 검토 중일 때의 상태 메시지."
+  },
+  "examiningConnections": {
+    "message": "노드 연결 검사 중",
+    "description": "AI가 노드 연결을 검사 중일 때의 상태 메시지."
+  },
+  "reviewingWorkflow": {
+    "message": "워크플로우 검토 중",
+    "description": "AI가 워크플로우를 검토 중일 때의 상태 메시지."
+  },
+  "updatingParameters": {
+    "message": "노드 매개변수 업데이트 중",
+    "description": "AI가 매개변수를 업데이트 중일 때의 상태 메시지."
+  },
+  "removingNodes": {
+    "message": "노드 제거 중",
+    "description": "AI가 노드를 제거 중일 때의 상태 메시지."
+  },
+  "creatingNodes": {
+    "message": "노드 생성 중",
+    "description": "AI가 노드를 생성 중일 때의 상태 메시지."
+  },
+  "processing": {
+    "message": "처리 중",
+    "description": "AI가 처리 중일 때의 일반 상태 메시지."
+  },
+  "upgradeToPremiumPlan": {
+    "message": "프리미엄으로 업그레이드",
+    "description": "프리미엄 플랜으로 업그레이드하기 위한 버튼 텍스트."
+  },
+  "getEarlyAccess": {
+    "message": "새로운 기능에 대한 조기 액세스를 얻고 광고를 제거하려면",
+    "description": "프리미엄으로 업그레이드의 이점에 대한 설명."
+  },
+  "goAdFree": {
+    "message": "광고 없음",
+    "description": "기본 플랜 버튼 텍스트."
+  },
+  "improveExperience": {
+    "message": "경험을 개선하고 개발자를 지원하려면",
+    "description": "기본 플랜의 이점에 대한 설명."
+  },
+  "premiumCreditsBonus": {
+    "message": "그리고 다음 프리미엄 모델에 대한 2배 보너스 크레딧을 받기 시작하세요",
+    "description": "프리미엄 크레딧 보너스에 대한 설명."
+  },
+  "claimN8nCloudTrial": {
+    "message": "n8n 클라우드 호스팅에 대한 14일 무료 평가판 요청",
+    "description": "n8n 클라우드 평가판 버튼 텍스트."
+  },
+  "getBlotato": {
+    "message": "Blotato 받기",
+    "description": "Blotato API 버튼 텍스트."
+  },
+  "addSocialMediaPosting": {
+    "message": "워크플로우에 크로스 플랫폼 소셜 미디어 게시를 추가하려면",
+    "description": "Blotato API의 이점에 대한 설명."
+  },
+  "getElevenLabs": {
+    "message": "ElevenLabs API 받기",
+    "description": "ElevenLabs API 버튼 텍스트."
+  },
+  "addAiVoiceOvers": {
+    "message": "워크플로우에 AI 생성 음성 해설, 음악 및 사운드를 추가하려면",
+    "description": "ElevenLabs API의 이점에 대한 설명."
+  },
+  "getPiApi": {
+    "message": "PiAPI 받기",
+    "description": "PiAPI 버튼 텍스트."
+  },
+  "addAiImagesVideos": {
+    "message": "워크플로우에 AI 생성 이미지와 비디오를 추가하려면",
+    "description": "PiAPI의 이점에 대한 설명."
+  },
+  "newChat": {
+    "message": "새 채팅",
+    "description": "새 채팅 버튼 및 툴팁 텍스트."
+  },
+  "dragToReposition": {
+    "message": "채팅을 재배치하려면 드래그(초기화하려면 더블 클릭)",
+    "description": "드래그 핸들 툴팁."
+  },
+  "dragToRepositionChat": {
+    "message": "채팅을 재배치하려면 드래그(초기화하려면 더블 클릭)",
+    "description": "드래그 핸들 툴팁."
+  },
+  "unexpectedError": {
+    "message": "예기치 않은 오류가 발생했습니다",
+    "description": "일반 오류 메시지."
+  },
+  "authenticationError": {
+    "message": "인증 오류: API 키가 유효하고 만료되지 않았는지 확인하세요.",
+    "description": "인증 문제에 대한 오류 메시지."
+  },
+  "rateLimitExceeded": {
+    "message": "속도 제한 초과: OpenAI의 속도 제한에 도달했습니다. 잠시 후 다시 시도하세요.",
+    "description": "속도 제한 문제에 대한 오류 메시지."
+  },
+  "insufficientCredits": {
+    "message": "크레딧 부족: OpenAI 계정에 이 요청을 처리할 충분한 크레딧이 없습니다.",
+    "description": "크레딧 부족에 대한 오류 메시지."
+  },
+  "invalidApiKey": {
+    "message": "잘못된 API 키: 제공된 API 키가 유효하지 않거나 형식이 잘못되었습니다.",
+    "description": "잘못된 API 키에 대한 오류 메시지."
+  },
+  "contextWindowExceeded": {
+    "message": "컨텍스트 창 초과: 대화가 모델에서 처리하기에 너무 깁니다. 새 채팅을 시작하거나 입력 길이를 줄이세요.",
+    "description": "컨텍스트 창 초과에 대한 오류 메시지."
+  },
+  "openAiApiError": {
+    "message": "OpenAI API 오류",
+    "description": "OpenAI API 관련 오류 메시지의 일부."
+  },
+  "logout": {
+    "message": "로그아웃",
+    "description": "로그아웃 버튼 텍스트."
+  },
+  "signInUsingEmail": {
+    "message": "이메일로 로그인",
+    "description": "이메일로 로그인 제목."
+  },
+  "weSendSecureLoginLink": {
+    "message": "이메일로 안전한 로그인 링크를 보내드립니다. 동일한 브라우저에서 열어 로그인하세요.",
+    "description": "이메일 로그인 프로세스 설명."
+  },
+  "email": {
+    "message": "이메일",
+    "description": "이메일 필드 레이블."
+  },
+  "loginLinkSent": {
+    "message": "로그인 링크가 전송되었습니다! 이메일을 확인하세요.",
+    "description": "로그인 링크 전송 후 성공 메시지."
+  },
+  "sendLoginLink": {
+    "message": "로그인 링크 보내기",
+    "description": "로그인 링크 보내기 버튼 텍스트."
+  },
+  "goBack": {
+    "message": "뒤로 가기",
+    "description": "뒤로 가기 버튼 텍스트."
+  },
+  "unlockMoreFeatures": {
+    "message": "더 많은 기능 잠금 해제",
+    "description": "더 많은 기능 잠금 해제 제목."
+  },
+  "goAdFreeEnhanceWorkflowAutomation": {
+    "message": "광고를 제거하고 프리미엄 기능으로 워크플로우 자동화를 향상시키세요.",
+    "description": "프리미엄 기능 잠금 해제에 대한 설명."
+  },
+  "alreadyHaveAnAccount": {
+    "message": "이미 계정이 있으신가요?",
+    "description": "이미 계정이 있는 사용자에 대한 텍스트."
+  },
+  "signIn": {
+    "message": "로그인",
+    "description": "로그인 버튼 텍스트."
+  },
+  "manageSubscriptionWithStripe": {
+    "message": "Stripe을 통해 구독 관리",
+    "description": "Stripe을 통해 구독 관리 링크 텍스트."
+  },
+  "errorLoadingSettings": {
+    "message": "오류: 설정을 로드할 수 없습니다.",
+    "description": "설정 로드 오류 메시지."
+  },
+  "upgradeYourPlan": {
+    "message": "플랜 업그레이드",
+    "description": "플랜 업그레이드 제목."
+  },
+  "enhanceWorkflowAutomation": {
+    "message": "프리미엄 기능으로 워크플로우 자동화를 향상시키세요.",
+    "description": "플랜 업그레이드에 대한 설명."
+  },
+  "getSubscription": {
+    "message": "구독 받기",
+    "description": "구독 받기 제목."
+  },
+  "enhanceWorkflowAutomationSubscription": {
+    "message": "구독 플랜으로 워크플로우 자동화를 향상시키세요.",
+    "description": "구독 받기에 대한 설명."
+  },
+  "freePlan": {
+    "message": "무료",
+    "description": "무료 플랜 레이블."
+  },
+  "freePlanDescription": {
+    "message": "가끔 광고를 표시합니다",
+    "description": "무료 플랜에 대한 설명."
+  },
+  "adFreePlan": {
+    "message": "광고 없음",
+    "description": "광고 없는 플랜 레이블."
+  },
+  "popular": {
+    "message": "인기",
+    "description": "인기 플랜을 나타내는 레이블."
+  },
+  "currentPlan": {
+    "message": "현재 플랜",
+    "description": "사용자의 현재 플랜을 나타내는 레이블."
+  },
+  "premiumPlan": {
+    "message": "프리미엄",
+    "description": "프리미엄 플랜 레이블."
+  },
+  "earlyAccess": {
+    "message": "조기 액세스",
+    "description": "플랜에 대한 조기 액세스를 나타내는 레이블."
+  },
+  "perMonth": {
+    "message": "/월",
+    "description": "월별 가격을 나타내는 텍스트."
+  },
+  "monthly": {
+    "message": "월간",
+    "description": "월간 청구 옵션 레이블."
+  },
+  "yearly": {
+    "message": "연간",
+    "description": "연간 청구 옵션 레이블."
+  },
+  "selectUpgrade": {
+    "message": "업그레이드 선택",
+    "description": "업그레이드가 선택되지 않았을 때의 버튼 텍스트."
+  },
+  "upgrade": {
+    "message": "업그레이드",
+    "description": "업그레이드 버튼 텍스트."
+  },
+  "upgradeToPremium": {
+    "message": "프리미엄으로 업그레이드",
+    "description": "프리미엄 플랜으로 업그레이드 버튼 텍스트."
+  },
+  "saveWithAnnual": {
+    "message": "연간 청구로 {percentage}% 절약",
+    "description": "연간 청구 절약 모달 제목, {percentage}는 절약 비율로 대체됨."
+  },
+  "twoMonthsFree": {
+    "message": "2개월 무료",
+    "description": "연간 청구로 2개월 무료를 나타내는 텍스트."
+  },
+  "savingsMessage": {
+    "message": "연간 청구로 전환하면 <span class=\"plasmo-font-bold plasmo-text-primary\">{freeMonths}</span>를 받고 ${savings}를 절약할 수 있습니다.",
+    "description": "연간 청구 절약 메시지, {freeMonths}와 {savings}는 플레이스홀더."
+  },
+  "monthlyCost": {
+    "message": "월간:",
+    "description": "절약 모달에서 월간 비용 레이블."
+  },
+  "annualCost": {
+    "message": "연간:",
+    "description": "절약 모달에서 연간 비용 레이블."
+  },
+  "yourSavings": {
+    "message": "절약 금액:",
+    "description": "절약 모달에서 절약된 금액 레이블."
+  },
+  "switchToAnnual": {
+    "message": "연간으로 전환",
+    "description": "연간 청구로 전환 버튼 텍스트."
+  },
+  "noThanks": {
+    "message": "아니요, 괜찮습니다",
+    "description": "연간 청구 거부 버튼 텍스트."
+  },
+  "earlyAccessTooltip1": {
+    "message": "새로운 기능에 대한 조기 액세스 받기",
+    "description": "조기 액세스 툴팁 첫 번째 줄."
+  },
+  "earlyAccessTooltip2": {
+    "message": "곧 출시:",
+    "description": "조기 액세스 툴팁 두 번째 줄."
+  },
+  "earlyAccessTooltip3": {
+    "message": "프리미엄 AI 모델, API 키 불필요",
+    "description": "조기 액세스 툴팁 세 번째 줄."
+  },
+  "earlyAccessTooltip4": {
+    "message": "초기 사용자는 시작 날짜부터 2배 보너스와 함께 소급 크레딧을 받습니다",
+    "description": "조기 액세스 툴팁 네 번째 줄."
+  },
+  "analyzingNodeIssues": {
+    "message": "노드 문제 분석 중",
+    "description": "AI가 노드 생성 후 노드 문제를 분석할 때의 상태 메시지입니다."
+  },
+  "modelSubtitleO3": {
+    "message": "가장 강력한 추론 모델",
+    "description": "o3 모델에 대한 자막입니다."
+  },
+  "modelSubtitleGpt41": {
+    "message": "플래그십 GPT 모델",
+    "description": "gpt-4.1 모델에 대한 자막입니다."
+  },
+  "modelSubtitleO4Mini": {
+    "message": "더 빠르고 저렴한 추론 모델",
+    "description": "o4-mini 모델에 대한 자막입니다."
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "가장 강력한 사고 모델",
+    "description": "Gemini 2.5 Pro 모델에 대한 자막입니다."
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "최상의 가격 대비 성능",
+    "description": "Gemini 2.5 Flash 모델에 대한 자막입니다."
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "가장 저렴한 모델",
+    "description": "Gemini 2.0 Flash 모델에 대한 자막입니다."
+  },
+  "providerSubtitleRecommended": {
+    "message": "추천",
+    "description": "추천 제공자에 대한 자막입니다."
+  },
+  "customSystemInstructions": {
+    "message": "사용자 정의 시스템 지침",
+    "description": "사용자 정의 시스템 지침 설정을 위한 레이블."
+  },
+  "customSystemInstructionsDesc": {
+    "message": "각 채팅에서 초기 시스템 프롬프트와 함께 포함하고 싶은 지침을 입력하세요.",
+    "description": "사용자 정의 시스템 지침 설정에 대한 설명."
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "여기에 사용자 정의 지침을 입력하세요",
+    "description": "사용자 정의 시스템 지침 입력을 위한 플레이스홀더 텍스트."
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "이 기능은 현재 n8nChat Premium 멤버만을 위한 얼리 액세스 기능입니다. 이 기능을 사용하려면 n8nChat 프리미엄 계정으로 로그인하세요.",
+    "description": "사용자 정의 지침 기능이 프리미엄 액세스가 필요할 때 표시되는 플레이스홀더 텍스트."
+  }
+} 

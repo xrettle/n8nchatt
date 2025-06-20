@@ -1,0 +1,642 @@
+{
+  "extensionName": {
+    "message": "n8nChat",
+    "description": "Nome dell'estensione."
+  },
+  "extensionDescription": {
+    "message": "Un compagno n8n che genera nodi e flussi di lavoro con l'IA.",
+    "description": "Descrizione dell'estensione."
+  },
+  "activateOnCurrentPage": {
+    "message": "Attiva sulla pagina corrente",
+    "description": "Testo del pulsante per attivare l'estensione sulla pagina corrente."
+  },
+  "activating": {
+    "message": "Attivazione...",
+    "description": "Testo del pulsante mostrato durante l'attivazione."
+  },
+  "activationFailed": {
+    "message": "Attivazione fallita",
+    "description": "Testo del pulsante mostrato quando l'attivazione fallisce."
+  },
+  "notWorkflowPage": {
+    "message": "Questa non è una pagina di flusso di lavoro",
+    "description": "Testo del pulsante mostrato quando la pagina corrente non è una pagina di flusso di lavoro."
+  },
+  "n8nChatActivated": {
+    "message": "n8nChat è attivato",
+    "description": "Messaggio mostrato quando l'estensione è attivata."
+  },
+  "selfHostingActivate": {
+    "message": "Auto-ospitato? Accedi al tuo flusso di lavoro, quindi attiva l'estensione cliccando sul pulsante qui sotto:",
+    "description": "Istruzione per gli utenti auto-ospitati su come attivare l'estensione."
+  },
+  "autoActivateHosted": {
+    "message": "n8nChat si attiva automaticamente per i flussi di lavoro ospitati su n8n",
+    "description": "Nota sull'attivazione automatica per i flussi di lavoro ospitati."
+  },
+  "n8nHostedLink": {
+    "message": "ospitato su n8n",
+    "description": "Testo del link per i flussi di lavoro ospitati su n8n."
+  },
+  "noApiKeyWarning": {
+    "message": "È richiesta una chiave API per utilizzare n8nChat",
+    "description": "Messaggio di avviso quando non è stata impostata alcuna chiave API."
+  },
+  "settings": {
+    "message": "Impostazioni",
+    "description": "Intestazione della sezione delle impostazioni."
+  },
+  "account": {
+    "message": "Account",
+    "description": "Intestazione della scheda delle impostazioni dell'account."
+  },
+  "api": {
+    "message": "API",
+    "description": "Intestazione della scheda delle impostazioni API."
+  },
+  "chat": {
+    "message": "Chat",
+    "description": "Intestazione della scheda delle impostazioni della chat."
+  },
+  "configureActivate": {
+    "message": "Attiva e Configura",
+    "description": "Testo del titolo per l'attivazione e la configurazione."
+  },
+  "provider": {
+    "message": "Fornitore",
+    "description": "Etichetta per la selezione del fornitore API."
+  },
+  "model": {
+    "message": "Modello",
+    "description": "Etichetta per la selezione del modello."
+  },
+  "selectProvider": {
+    "message": "Seleziona un Fornitore",
+    "description": "Testo segnaposto per la selezione del fornitore."
+  },
+  "selectModel": {
+    "message": "Seleziona un Modello",
+    "description": "Testo segnaposto per la selezione del modello."
+  },
+  "enterApiKeyFirst": {
+    "message": "Inserisci prima la chiave API",
+    "description": "Testo segnaposto quando non è stata inserita alcuna chiave API."
+  },
+  "loading": {
+    "message": "Caricamento...",
+    "description": "Testo mostrato durante il caricamento dei modelli."
+  },
+  "noModelsFound": {
+    "message": "Nessun modello trovato",
+    "description": "Messaggio quando non sono disponibili modelli."
+  },
+  "apiKey": {
+    "message": "Chiave API",
+    "description": "Etichetta per il campo di inserimento della chiave API."
+  },
+  "enterApiKey": {
+    "message": "Inserisci la chiave API",
+    "description": "Testo segnaposto per il campo di inserimento della chiave API."
+  },
+  "getOpenAiApiKey": {
+    "message": "Ottieni una chiave API OpenAI",
+    "description": "Testo del link per ottenere una chiave API OpenAI."
+  },
+  "billingInfoRequiredBefore": {
+    "message": "Devi avere",
+    "description": "Parte del messaggio sulle informazioni di fatturazione prima del link."
+  },
+  "billingInfoRequiredAfter": {
+    "message": "configurato con OpenAI",
+    "description": "Parte del messaggio sulle informazioni di fatturazione dopo il link."
+  },
+  "billingInfo": {
+    "message": "informazioni di fatturazione",
+    "description": "Testo del link per le informazioni di fatturazione."
+  },
+  "setup": {
+    "message": " configurato con OpenAI",
+    "description": "Parte del testo sulla configurazione delle informazioni di fatturazione."
+  },
+  "notWorking": {
+    "message": "Non funziona?",
+    "description": "Testo su un problema di funzionalità."
+  },
+  "setupTutorial": {
+    "message": "Guarda il tutorial di configurazione",
+    "description": "Testo del link per il tutorial di configurazione."
+  },
+  "getAnthropicKey": {
+    "message": "Ottieni una chiave Anthropic",
+    "description": "Testo del link per ottenere una chiave Anthropic."
+  },
+  "getGoogleKey": {
+    "message": "Ottieni una chiave Google",
+    "description": "Testo del link per ottenere una chiave Google."
+  },
+  "noPublicKeyLink": {
+    "message": "(Nessun link per chiave pubblica disponibile)",
+    "description": "Testo quando non è disponibile alcun link per chiave pubblica."
+  },
+  "reasoningLevel": {
+    "message": "Livello di Ragionamento",
+    "description": "Etichetta per la selezione del livello di ragionamento."
+  },
+  "low": {
+    "message": "Basso",
+    "description": "Opzione per un livello di ragionamento basso."
+  },
+  "medium": {
+    "message": "Medio",
+    "description": "Opzione per un livello di ragionamento medio."
+  },
+  "high": {
+    "message": "Alto",
+    "description": "Opzione per un livello di ragionamento alto."
+  },
+  "reasoningLevelTooltip": {
+    "message": "Basso privilegia la velocità e l'uso economico dei token, mentre Alto privilegia un ragionamento più completo a scapito di più token generati e risposte più lente.",
+    "description": "Tooltip per il livello di ragionamento."
+  },
+  "temperature": {
+    "message": "Temperatura",
+    "description": "Etichetta per il cursore della temperatura."
+  },
+  "temperatureTooltip": {
+    "message": "Regola quanto le risposte sono creative o sicure. Impostazioni più basse rendono le risposte prevedibili e pertinenti al tema, mentre impostazioni più alte le rendono più creative e libere.",
+    "description": "Tooltip per l'impostazione della temperatura."
+  },
+  "topP": {
+    "message": "Top P",
+    "description": "Etichetta per il cursore Top P."
+  },
+  "topPTooltip": {
+    "message": "Determina quanto le risposte possono essere diverse. Impostazioni più basse aderiscono alle opzioni più ovvie, mentre impostazioni più alte includono opzioni più inaspettate.",
+    "description": "Tooltip per l'impostazione Top P."
+  },
+  "maxTokens": {
+    "message": "Numero Massimo di Token",
+    "description": "Etichetta per il cursore del numero massimo di token."
+  },
+  "maxTokensTooltip": {
+    "message": "Numero massimo di token che verranno generati nella risposta. Valori più bassi possono aiutare a controllare i costi per richieste grandi.",
+    "description": "Tooltip per l'impostazione del numero massimo di token."
+  },
+  "restoreDefaults": {
+    "message": "Ripristina i valori predefiniti",
+    "description": "Testo del pulsante per ripristinare i valori predefiniti."
+  },
+  "warningExpensiveModel": {
+    "message": "Avviso: Questo modello è costoso",
+    "description": "Messaggio di avviso per i modelli costosi."
+  },
+  "moreProvidersSoon": {
+    "message": "Altri fornitori presto in Accesso Anticipato",
+    "description": "Messaggio di nota sui fornitori in arrivo."
+  },
+  "includeWorkflowContext": {
+    "message": "Includi il Contesto del Flusso di Lavoro",
+    "description": "Etichetta per includere il contesto del flusso di lavoro nella chat."
+  },
+  "includeWorkflowContextDesc": {
+    "message": "Invia i dati del tuo flusso di lavoro corrente all'inizio della chat",
+    "description": "Descrizione per includere il contesto del flusso di lavoro."
+  },
+  "saveUIPosition": {
+    "message": "Salva la Posizione dell'UI",
+    "description": "Etichetta per salvare la posizione dell'UI."
+  },
+  "saveUIPositionDesc": {
+    "message": "Salva la posizione dell'interfaccia utente della chat tra i ricaricamenti",
+    "description": "Descrizione per salvare la posizione dell'UI."
+  },
+  "tools": {
+    "message": "Strumenti",
+    "description": "Intestazione della sezione delle impostazioni degli strumenti."
+  },
+  "workflowAccess": {
+    "message": "Accesso al Flusso di Lavoro",
+    "description": "Etichetta per l'interruttore di accesso al flusso di lavoro."
+  },
+  "workflowAccessDesc": {
+    "message": "Consente alla chat di visualizzare i dati del tuo flusso di lavoro corrente",
+    "description": "Descrizione per l'accesso al flusso di lavoro."
+  },
+  "nodeLibraryAccess": {
+    "message": "Accesso alla Libreria dei Nodi",
+    "description": "Etichetta per l'interruttore di accesso alla libreria dei nodi."
+  },
+  "nodeLibraryAccessDesc": {
+    "message": "Consente alla chat di vedere l'elenco dei nodi installati",
+    "description": "Descrizione per l'accesso alla libreria dei nodi."
+  },
+  "nodeCreation": {
+    "message": "Creazione di Nodi",
+    "description": "Etichetta per l'interruttore di creazione dei nodi."
+  },
+  "nodeCreationDesc": {
+    "message": "Consente alla chat di aggiungere nodi al flusso di lavoro",
+    "description": "Descrizione per la creazione di nodi."
+  },
+  "nodeEditing": {
+    "message": "Modifica dei Nodi",
+    "description": "Etichetta per l'interruttore di modifica dei nodi."
+  },
+  "nodeEditingDesc": {
+    "message": "Consente alla chat di modificare le impostazioni dei nodi nel tuo flusso di lavoro",
+    "description": "Descrizione per la modifica dei nodi."
+  },
+  "nodeRemoval": {
+    "message": "Rimozione dei Nodi",
+    "description": "Etichetta per l'interruttore di rimozione dei nodi."
+  },
+  "nodeRemovalDesc": {
+    "message": "Consente alla chat di rimuovere nodi dal tuo flusso di lavoro",
+    "description": "Descrizione per la rimozione dei nodi."
+  },
+  "affiliateRecommendations": {
+    "message": "Raccomandazioni di Affiliazione",
+    "description": "Etichetta per l'interruttore delle raccomandazioni di affiliazione."
+  },
+  "affiliateRecommendationsDesc": {
+    "message": "Consente alla chat di includere link di affiliazione nelle raccomandazioni di servizi esterni",
+    "description": "Descrizione per le raccomandazioni di affiliazione."
+  },
+  "requiresSubscription": {
+    "message": "Abbonamento attivo richiesto per disattivare",
+    "description": "Tooltip per le raccomandazioni di affiliazione quando è richiesto un abbonamento."
+  },
+  "askAnything": {
+    "message": "Fammi qualsiasi domanda sul tuo flusso di lavoro...",
+    "description": "Testo segnaposto predefinito nel campo di input della chat."
+  },
+  "createSocialMediaWorkflow": {
+    "message": "Crea un flusso di lavoro che mi aiuti ad automatizzare i miei social media.",
+    "description": "Testo segnaposto suggerito per un flusso di lavoro sui social media."
+  },
+  "optimizeWorkflow": {
+    "message": "Come ottimizzeresti questo flusso di lavoro?",
+    "description": "Testo segnaposto suggerito per l'ottimizzazione dei flussi di lavoro."
+  },
+  "createStickyNotes": {
+    "message": "Crea note che spieghino questo flusso di lavoro.",
+    "description": "Testo segnaposto suggerito per le note."
+  },
+  "workflowNotWorking": {
+    "message": "Perché il mio flusso di lavoro non funziona?",
+    "description": "Testo segnaposto suggerito per la risoluzione dei problemi dei flussi di lavoro."
+  },
+  "useAiAgentNode": {
+    "message": "Come si usa il nodo Agente IA?",
+    "description": "Testo segnaposto suggerito per l'uso del nodo Agente IA."
+  },
+  "optimizeThis": {
+    "message": "C'è un modo per ottimizzare questo?",
+    "description": "Testo segnaposto suggerito per una richiesta di ottimizzazione."
+  },
+  "explainWorkflow": {
+    "message": "Spiegami questo flusso di lavoro passo dopo passo.",
+    "description": "Testo segnaposto suggerito per la spiegazione di un flusso di lavoro."
+  },
+  "thinking": {
+    "message": "Pensando",
+    "description": "Messaggio di stato quando l'IA sta pensando."
+  },
+  "browsingNodes": {
+    "message": "Esplorazione dei nodi",
+    "description": "Messaggio di stato quando l'IA esplora i nodi."
+  },
+  "reviewingNodeConfig": {
+    "message": "Revisione della configurazione del nodo",
+    "description": "Messaggio di stato quando l'IA rivede la configurazione di un nodo."
+  },
+  "examiningConnections": {
+    "message": "Esame delle connessioni dei nodi",
+    "description": "Messaggio di stato quando l'IA esamina le connessioni dei nodi."
+  },
+  "reviewingWorkflow": {
+    "message": "Revisione del tuo flusso di lavoro",
+    "description": "Messaggio di stato quando l'IA rivede il flusso di lavoro."
+  },
+  "updatingParameters": {
+    "message": "Aggiornamento dei parametri del nodo",
+    "description": "Messaggio di stato quando l'IA aggiorna i parametri."
+  },
+  "removingNodes": {
+    "message": "Rimozione dei nodi",
+    "description": "Messaggio di stato quando l'IA rimuove i nodi."
+  },
+  "creatingNodes": {
+    "message": "Creazione di nodi",
+    "description": "Messaggio di stato quando l'IA crea nodi."
+  },
+  "processing": {
+    "message": "Elaborazione",
+    "description": "Messaggio di stato generale quando l'IA elabora."
+  },
+  "upgradeToPremium": {
+    "message": "Passa a Premium",
+    "description": "Testo del pulsante per passare a Premium."
+  },
+  "getEarlyAccess": {
+    "message": "per ottenere l'accesso anticipato a nuove funzionalità e rimuovere gli annunci",
+    "description": "Descrizione dei vantaggi di passare a Premium."
+  },
+  "goAdFree": {
+    "message": "Senza Annunci",
+    "description": "Testo del pulsante per passare al piano base."
+  },
+  "improveExperience": {
+    "message": "per migliorare la tua esperienza e supportare lo sviluppatore",
+    "description": "Descrizione dei vantaggi del piano base."
+  },
+  "premiumCreditsBonus": {
+    "message": "e inizia a guadagnare crediti bonus 2x per il prossimo modello Premium",
+    "description": "Descrizione del bonus di crediti Premium."
+  },
+  "claimN8nCloudTrial": {
+    "message": "Richiedi una prova gratuita di 14 giorni per l'hosting cloud n8n",
+    "description": "Testo del pulsante per la prova di n8n Cloud."
+  },
+  "getBlotato": {
+    "message": "Ottieni Blotato",
+    "description": "Testo del pulsante per l'API Blotato."
+  },
+  "addSocialMediaPosting": {
+    "message": "per aggiungere pubblicazioni multipiattaforma sui social media ai tuoi flussi di lavoro",
+    "description": "Descrizione dei vantaggi dell'API Blotato."
+  },
+  "getElevenLabs": {
+    "message": "Ottieni l'API ElevenLabs",
+    "description": "Testo del pulsante per l'API ElevenLabs."
+  },
+  "addAiVoiceOvers": {
+    "message": "per aggiungere voci fuori campo, musica e suoni generati dall'IA ai tuoi flussi di lavoro",
+    "description": "Descrizione dei vantaggi dell'API ElevenLabs."
+  },
+  "getPiApi": {
+    "message": "Ottieni PiAPI",
+    "description": "Testo del pulsante per PiAPI."
+  },
+  "addAiImagesVideos": {
+    "message": "per aggiungere immagini e video generati dall'IA ai tuoi flussi di lavoro",
+    "description": "Descrizione dei vantaggi di PiAPI."
+  },
+  "newChat": {
+    "message": "Nuova Chat",
+    "description": "Testo del pulsante e tooltip per una nuova chat."
+  },
+  "dragToReposition": {
+    "message": "Trascina per riposizionare la chat (doppio clic per ripristinare)",
+    "description": "Tooltip per la maniglia di trascinamento."
+  },
+  "dragToRepositionChat": {
+    "message": "Trascina per riposizionare la chat (doppio clic per ripristinare)",
+    "description": "Tooltip per la maniglia di trascinamento."
+  },
+  "unexpectedError": {
+    "message": "Si è verificato un errore imprevisto",
+    "description": "Messaggio di errore generale."
+  },
+  "authenticationError": {
+    "message": "Errore di autenticazione: Verifica che la tua chiave API sia valida e non sia scaduta.",
+    "description": "Messaggio di errore per problemi di autenticazione."
+  },
+  "rateLimitExceeded": {
+    "message": "Limite di frequenza superato: Hai raggiunto i limiti di frequenza di OpenAI. Riprova dopo un breve ritardo.",
+    "description": "Messaggio di errore per problemi di limite di frequenza."
+  },
+  "insufficientCredits": {
+    "message": "Crediti insufficienti: Il tuo account OpenAI non ha abbastanza crediti per elaborare questa richiesta.",
+    "description": "Messaggio di errore per crediti insufficienti."
+  },
+  "invalidApiKey": {
+    "message": "Chiave API non valida: La chiave API fornita non è valida o è formattata male.",
+    "description": "Messaggio di errore per chiave API non valida."
+  },
+  "contextWindowExceeded": {
+    "message": "Finestra di contesto superata: La conversazione è troppo lunga per essere elaborata dal modello. Inizia una nuova chat o riduci la lunghezza dell'input.",
+    "description": "Messaggio di errore per superamento della finestra di contesto."
+  },
+  "openAiApiError": {
+    "message": "Errore API OpenAI",
+    "description": "Parte del messaggio di errore specifico per l'API OpenAI."
+  },
+  "logout": {
+    "message": "Esci",
+    "description": "Testo del pulsante per uscire."
+  },
+  "signInUsingEmail": {
+    "message": "Accedi usando la tua email",
+    "description": "Intestazione per l'accesso tramite email."
+  },
+  "weSendSecureLoginLink": {
+    "message": "Inviamo un link di accesso sicuro alla tua email. Assicurati di aprirlo nello stesso browser per accedere.",
+    "description": "Descrizione del processo di accesso tramite email."
+  },
+  "email": {
+    "message": "Email",
+    "description": "Etichetta per il campo email."
+  },
+  "loginLinkSent": {
+    "message": "Link di accesso inviato! Controlla la tua email.",
+    "description": "Messaggio di successo dopo l'invio del link di accesso."
+  },
+  "sendLoginLink": {
+    "message": "Invia link di accesso",
+    "description": "Testo del pulsante per inviare il link di accesso."
+  },
+  "goBack": {
+    "message": "Torna indietro",
+    "description": "Testo del pulsante per tornare indietro."
+  },
+  "unlockMoreFeatures": {
+    "message": "Sblocca più funzionalità",
+    "description": "Intestazione per sbloccare più funzionalità."
+  },
+  "goAdFreeEnhanceWorkflowAutomation": {
+    "message": "Diventa senza annunci e migliora l'automazione dei tuoi flussi di lavoro con funzionalità Premium.",
+    "description": "Descrizione per sbloccare funzionalità Premium."
+  },
+  "alreadyHaveAnAccount": {
+    "message": "Hai già un account?",
+    "description": "Testo per gli utenti che hanno già un account."
+  },
+  "signIn": {
+    "message": "Accedi",
+    "description": "Testo del pulsante per accedere."
+  },
+  "manageSubscriptionWithStripe": {
+    "message": "Gestisci il tuo abbonamento tramite Stripe",
+    "description": "Testo del link per gestire l'abbonamento tramite Stripe."
+  },
+  "errorLoadingSettings": {
+    "message": "Errore: Impossibile caricare le impostazioni.",
+    "description": "Messaggio di errore durante il caricamento delle impostazioni."
+  },
+  "upgradeYourPlan": {
+    "message": "Aggiorna il tuo piano",
+    "description": "Intestazione per aggiornare il piano."
+  },
+  "enhanceWorkflowAutomation": {
+    "message": "Migliora l'automazione dei tuoi flussi di lavoro con funzionalità Premium.",
+    "description": "Descrizione per aggiornare il piano."
+  },
+  "getSubscription": {
+    "message": "Ottieni un Abbonamento",
+    "description": "Intestazione per ottenere un abbonamento."
+  },
+  "enhanceWorkflowAutomationSubscription": {
+    "message": "Migliora l'automazione dei tuoi flussi di lavoro con i nostri piani di abbonamento.",
+    "description": "Descrizione per ottenere un abbonamento."
+  },
+  "freePlan": {
+    "message": "Gratuito",
+    "description": "Etichetta per il piano gratuito."
+  },
+  "freePlanDescription": {
+    "message": "Mostra annunci occasionalmente",
+    "description": "Descrizione per il piano gratuito."
+  },
+  "adFreePlan": {
+    "message": "Senza Annunci",
+    "description": "Etichetta per il piano senza annunci."
+  },
+  "popular": {
+    "message": "Popolare",
+    "description": "Etichetta che indica un piano popolare."
+  },
+  "currentPlan": {
+    "message": "Piano Attuale",
+    "description": "Etichetta che indica il piano attuale dell'utente."
+  },
+  "premiumPlan": {
+    "message": "Premium",
+    "description": "Etichetta per il piano Premium."
+  },
+  "earlyAccess": {
+    "message": "Accesso Anticipato",
+    "description": "Etichetta che indica un accesso anticipato per un piano."
+  },
+  "perMonth": {
+    "message": "/Mese",
+    "description": "Testo che indica il prezzo al mese."
+  },
+  "monthly": {
+    "message": "Mensile",
+    "description": "Etichetta per l'opzione di fatturazione mensile."
+  },
+  "yearly": {
+    "message": "Annuale",
+    "description": "Etichetta per l'opzione di fatturazione annuale."
+  },
+  "selectUpgrade": {
+    "message": "Seleziona un Aggiornamento",
+    "description": "Testo del pulsante quando non è stato selezionato alcun aggiornamento."
+  },
+  "upgrade": {
+    "message": "Aggiorna",
+    "description": "Testo del pulsante per aggiornare."
+  },
+  "upgradeToPremiumPlan": {
+    "message": "Passa a Premium",
+    "description": "Testo del pulsante per passare al piano premium."
+  },
+  "saveWithAnnual": {
+    "message": "Risparmia il {percentage}% con la fatturazione annuale",
+    "description": "Intestazione della modale di risparmio con fatturazione annuale, {percentage} è sostituito dalla percentuale di risparmio."
+  },
+  "twoMonthsFree": {
+    "message": "2 mesi gratis",
+    "description": "Testo che indica due mesi gratis con fatturazione annuale."
+  },
+  "savingsMessage": {
+    "message": "Ottieni <span class=\"plasmo-font-bold plasmo-text-primary\">{freeMonths}</span> e risparmia ${savings} passando alla fatturazione annuale.",
+    "description": "Messaggio di risparmio con fatturazione annuale, {freeMonths} e {savings} sono segnaposto."
+  },
+  "monthlyCost": {
+    "message": "Mensile:",
+    "description": "Etichetta per il costo mensile nella modale di risparmio."
+  },
+  "annualCost": {
+    "message": "Annuale:",
+    "description": "Etichetta per il costo annuale nella modale di risparmio."
+  },
+  "yourSavings": {
+    "message": "I tuoi Risparmi:",
+    "description": "Etichetta per l'importo risparmiato nella modale di risparmio."
+  },
+  "switchToAnnual": {
+    "message": "Passa ad Annuale",
+    "description": "Testo del pulsante per passare alla fatturazione annuale."
+  },
+  "noThanks": {
+    "message": "No, grazie",
+    "description": "Testo del pulsante per rifiutare la fatturazione annuale."
+  },
+  "earlyAccessTooltip1": {
+    "message": "Ottieni l'accesso in anteprima alle nuove funzionalità",
+    "description": "Prima riga del tooltip per Accesso Anticipato."
+  },
+  "earlyAccessTooltip2": {
+    "message": "In arrivo:",
+    "description": "Seconda riga del tooltip per Accesso Anticipato."
+  },
+  "earlyAccessTooltip3": {
+    "message": "Modello IA Premium, nessuna chiave API richiesta",
+    "description": "Terza riga del tooltip per Accesso Anticipato."
+  },
+  "earlyAccessTooltip4": {
+    "message": "Gli utenti precoci ricevono crediti retroattivi dalla data di inizio con un bonus di 2x",
+    "description": "Quarta riga del tooltip per Accesso Anticipato."
+  },
+  "analyzingNodeIssues": {
+    "message": "Analisi dei problemi del nodo",
+    "description": "Messaggio di stato quando l'IA analizza i problemi del nodo dopo la creazione dei nodi."
+  },
+  "modelSubtitleO3": {
+    "message": "Modello di ragionamento più potente",
+    "description": "Sottotitolo per il modello o3 nella selezione del provider."
+  },
+  "modelSubtitleGpt41": {
+    "message": "Modello GPT di punta",
+    "description": "Sottotitolo per il modello gpt-4.1 nella selezione del provider."
+  },
+  "modelSubtitleO4Mini": {
+    "message": "Modello di ragionamento più veloce e conveniente",
+    "description": "Sottotitolo per il modello o4-mini nella selezione del provider."
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "Modello di pensiero più potente",
+    "description": "Sottotitolo per il modello Gemini 2.5 Pro."
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "Miglior rapporto qualità-prezzo",
+    "description": "Sottotitolo per il modello Gemini 2.5 Flash."
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "Modello più conveniente",
+    "description": "Sottotitolo per il modello Gemini 2.0 Flash."
+  },
+  "providerSubtitleRecommended": {
+    "message": "Consigliato",
+    "description": "Sottotitolo per un provider consigliato."
+  },
+  "customSystemInstructions": {
+    "message": "Istruzioni di sistema personalizzate",
+    "description": "Etichetta per le impostazioni delle istruzioni di sistema personalizzate."
+  },
+  "customSystemInstructionsDesc": {
+    "message": "Inserisci le istruzioni che vuoi includere con il prompt di sistema iniziale in ogni chat.",
+    "description": "Descrizione per le impostazioni delle istruzioni di sistema personalizzate."
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "Inserisci qui le tue istruzioni personalizzate",
+    "description": "Testo segnaposto per l'input delle istruzioni di sistema personalizzate."
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "Questa funzione è attualmente in accesso anticipato solo per i membri n8nChat Premium. Accedi a un account n8nChat premium per utilizzare questa funzione.",
+    "description": "Testo segnaposto mostrato quando la funzione delle istruzioni personalizzate richiede accesso premium."
+  }
+} 

@@ -1,0 +1,646 @@
+{
+  "extensionName": {
+    "message": "n8nChat",
+    "description": "The name of the extension."
+  },
+  "extensionDescription": {
+    "message": "A n8n companion that generates nodes and workflows using AI.",
+    "description": "Description of the extension."
+  },
+  "activateOnCurrentPage": {
+    "message": "Activate on Current Page",
+    "description": "Button text to activate the extension on the current page."
+  },
+  "activating": {
+    "message": "Activating...",
+    "description": "Button text shown while activation is in progress."
+  },
+  "activationFailed": {
+    "message": "Activation Failed",
+    "description": "Button text shown when activation fails."
+  },
+  "notWorkflowPage": {
+    "message": "Not Workflow Page",
+    "description": "Button text shown when the current page is not a workflow page."
+  },
+  "n8nChatActivated": {
+    "message": "n8nChat is activated",
+    "description": "Message shown when the extension is activated."
+  },
+  "selfHostingActivate": {
+    "message": "Self-hosting? Navigate to your workflow, then activate the extension by pressing the button below:",
+    "description": "Instruction for self-hosting users to activate the extension."
+  },
+  "autoActivateHosted": {
+    "message": "n8nChat activates automatically for n8n hosted workflows",
+    "description": "Note about automatic activation for hosted workflows."
+  },
+  "n8nHostedLink": {
+    "message": "n8n hosted",
+    "description": "Link text for n8n hosted workflows."
+  },
+  "noApiKeyWarning": {
+    "message": "An API key is required to use n8nChat",
+    "description": "Warning message when no API key is set."
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Title for the settings section."
+  },
+  "account": {
+    "message": "Account",
+    "description": "Tab title for account settings."
+  },
+  "api": {
+    "message": "API",
+    "description": "Tab title for API settings."
+  },
+  "chat": {
+    "message": "Chat",
+    "description": "Tab title for chat settings."
+  },
+  "configureActivate": {
+    "message": "Activate & Configure",
+    "description": "Header text for activation and configuration."
+  },
+  "provider": {
+    "message": "Provider",
+    "description": "Label for API provider selection."
+  },
+  "model": {
+    "message": "Model",
+    "description": "Label for model selection."
+  },
+  "selectProvider": {
+    "message": "Select Provider",
+    "description": "Placeholder text for provider selection."
+  },
+  "selectModel": {
+    "message": "Select a model",
+    "description": "Placeholder text for model selection."
+  },
+  "enterApiKeyFirst": {
+    "message": "Enter API key first",
+    "description": "Placeholder text when API key is not entered."
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Text shown while loading models."
+  },
+  "noModelsFound": {
+    "message": "No models found",
+    "description": "Message when no models are available."
+  },
+  "apiKey": {
+    "message": "API Key",
+    "description": "Label for API key input."
+  },
+  "enterApiKey": {
+    "message": "Enter API key",
+    "description": "Placeholder for API key input."
+  },
+  "getOpenAiApiKey": {
+    "message": "Get OpenAI API Key",
+    "description": "Link text to get OpenAI API key."
+  },
+  "billingInfoRequiredBefore": {
+    "message": "You must have valid",
+    "description": "Part of the billing information message before the link."
+  },
+  "billingInfoRequiredAfter": {
+    "message": "setup with OpenAI",
+    "description": "Part of the billing information message after the link."
+  },
+  "billingInfo": {
+    "message": "billing information",
+    "description": "Link text for billing information."
+  },
+  "setup": {
+    "message": " setup with OpenAI",
+    "description": "Part of the text about billing setup."
+  },
+  "notWorking": {
+    "message": "Not working?",
+    "description": "Text for troubleshooting issue."
+  },
+  "setupTutorial": {
+    "message": "Watch setup tutorial",
+    "description": "Link text for setup tutorial."
+  },
+  "getAnthropicKey": {
+    "message": "Get Anthropic Key",
+    "description": "Link text to get Anthropic API key."
+  },
+  "getGoogleKey": {
+    "message": "Get Gemini API Key",
+    "description": "Link text to get Google API key."
+  },
+  "noPublicKeyLink": {
+    "message": "(No public key link available)",
+    "description": "Text when no public key link is available."
+  },
+  "reasoningLevel": {
+    "message": "Reasoning Level",
+    "description": "Label for reasoning level selection."
+  },
+  "low": {
+    "message": "Low",
+    "description": "Option for low reasoning level."
+  },
+  "medium": {
+    "message": "Medium",
+    "description": "Option for medium reasoning level."
+  },
+  "high": {
+    "message": "High",
+    "description": "Option for high reasoning level."
+  },
+  "reasoningLevelTooltip": {
+    "message": "Low will favor speed and economical token usage, while high will favor more complete reasoning at the cost of more tokens generated and slower responses.",
+    "description": "Tooltip for reasoning level."
+  },
+  "temperature": {
+    "message": "Temperature",
+    "description": "Label for temperature slider."
+  },
+  "temperatureTooltip": {
+    "message": "Adjusts how wild or safe the responses are. Lower settings keep things predictable and on-topic, while higher settings make it more imaginative and free-flowing.",
+    "description": "Tooltip for temperature setting."
+  },
+  "topP": {
+    "message": "Top P",
+    "description": "Label for Top P slider."
+  },
+  "topPTooltip": {
+    "message": "Decides how varied the answers can be. Lower settings stick to the most obvious choices, while higher settings mix in more unexpected options.",
+    "description": "Tooltip for Top P setting."
+  },
+  "maxTokens": {
+    "message": "Max Tokens",
+    "description": "Label for Max Tokens slider."
+  },
+  "maxTokensTooltip": {
+    "message": "The maximum number of tokens to generate in the response. Lower values can help control costs for large prompts.",
+    "description": "Tooltip for Max Tokens setting."
+  },
+  "restoreDefaults": {
+    "message": "Restore Defaults",
+    "description": "Button text to restore default settings."
+  },
+  "warningExpensiveModel": {
+    "message": "Warning: This model is expensive",
+    "description": "Warning message for expensive models."
+  },
+  "moreProvidersSoon": {
+    "message": "More providers coming to early access soon",
+    "description": "Tooltip message about upcoming providers."
+  },
+  "includeWorkflowContext": {
+    "message": "Include Workflow Context",
+    "description": "Label for including workflow context in chat."
+  },
+  "includeWorkflowContextDesc": {
+    "message": "Sends your current workflow data at the start of a chat",
+    "description": "Description for including workflow context."
+  },
+  "saveUIPosition": {
+    "message": "Save UI Position",
+    "description": "Label for saving UI position."
+  },
+  "saveUIPositionDesc": {
+    "message": "Preserves chat UI position between reloads",
+    "description": "Description for saving UI position."
+  },
+  "tools": {
+    "message": "Tools",
+    "description": "Section title for tools settings."
+  },
+  "workflowAccess": {
+    "message": "Workflow Access",
+    "description": "Label for workflow access toggle."
+  },
+  "workflowAccessDesc": {
+    "message": "Allows chat to check data from your current workflow",
+    "description": "Description for workflow access."
+  },
+  "nodeLibraryAccess": {
+    "message": "Node Library Access",
+    "description": "Label for node library access toggle."
+  },
+  "nodeLibraryAccessDesc": {
+    "message": "Allows chat to browse your list of installed nodes",
+    "description": "Description for node library access."
+  },
+  "nodeCreation": {
+    "message": "Node Creation",
+    "description": "Label for node creation toggle."
+  },
+  "nodeCreationDesc": {
+    "message": "Allows chat to add nodes to the workflow",
+    "description": "Description for node creation."
+  },
+  "nodeEditing": {
+    "message": "Node Editing",
+    "description": "Label for node editing toggle."
+  },
+  "nodeEditingDesc": {
+    "message": "Allows chat to edit parameters of nodes in your workflow",
+    "description": "Description for node editing."
+  },
+  "nodeRemoval": {
+    "message": "Node Removal",
+    "description": "Label for node removal toggle."
+  },
+  "nodeRemovalDesc": {
+    "message": "Allows chat to remove nodes from your workflow",
+    "description": "Description for node removal."
+  },
+  "affiliateRecommendations": {
+    "message": "Affiliate Recommendations",
+    "description": "Label for affiliate recommendations toggle."
+  },
+  "affiliateRecommendationsDesc": {
+    "message": "Allows chat to include affiliate links in external service recommendations",
+    "description": "Description for affiliate recommendations."
+  },
+  "requiresSubscription": {
+    "message": "Requires an active subscription to disable",
+    "description": "Tooltip for affiliate recommendations when subscription is required."
+  },
+  "askAnything": {
+    "message": "Ask me anything about your workflow...",
+    "description": "Default placeholder text in chat input."
+  },
+  "createSocialMediaWorkflow": {
+    "message": "Create a workflow to help me automate my social media.",
+    "description": "Placeholder suggestion for social media workflow."
+  },
+  "optimizeWorkflow": {
+    "message": "How would you optimize this workflow?",
+    "description": "Placeholder suggestion for workflow optimization."
+  },
+  "createStickyNotes": {
+    "message": "Create sticky notes explaining this workflow.",
+    "description": "Placeholder suggestion for sticky notes."
+  },
+  "workflowNotWorking": {
+    "message": "Why isn't my workflow working?",
+    "description": "Placeholder suggestion for troubleshooting workflow."
+  },
+  "useAiAgentNode": {
+    "message": "How do I use the AI Agent node?",
+    "description": "Placeholder suggestion for AI Agent node usage."
+  },
+  "optimizeThis": {
+    "message": "Is there a way to optimize this?",
+    "description": "Placeholder suggestion for optimization query."
+  },
+  "explainWorkflow": {
+    "message": "Explain this workflow to me step by step.",
+    "description": "Placeholder suggestion for workflow explanation."
+  },
+  "thinking": {
+    "message": "Thinking",
+    "description": "Status message when AI is thinking."
+  },
+  "browsingNodes": {
+    "message": "Browsing nodes",
+    "description": "Status message when AI is browsing nodes."
+  },
+  "reviewingNodeConfig": {
+    "message": "Reviewing node config",
+    "description": "Status message when AI is reviewing node configuration."
+  },
+  "examiningConnections": {
+    "message": "Examining node connections",
+    "description": "Status message when AI is examining node connections."
+  },
+  "reviewingWorkflow": {
+    "message": "Reviewing your workflow",
+    "description": "Status message when AI is reviewing workflow."
+  },
+  "updatingParameters": {
+    "message": "Updating node parameters",
+    "description": "Status message when AI is updating parameters."
+  },
+  "removingNodes": {
+    "message": "Removing nodes",
+    "description": "Status message when AI is removing nodes."
+  },
+  "creatingNodes": {
+    "message": "Creating nodes",
+    "description": "Status message when AI is creating nodes."
+  },
+  "processing": {
+    "message": "Processing",
+    "description": "General status message when AI is processing."
+  },
+  "upgradeToPremium": {
+    "message": "Upgrade to Premium",
+    "description": "Button text for upgrading to premium."
+  },
+  "getEarlyAccess": {
+    "message": "to get early access to new features and remove ads",
+    "description": "Description for premium upgrade benefit."
+  },
+  "goAdFree": {
+    "message": "Go Ad-Free",
+    "description": "Button text for basic plan upgrade."
+  },
+  "improveExperience": {
+    "message": "to improve your experience and support the developer",
+    "description": "Description for basic plan benefit."
+  },
+  "premiumCreditsBonus": {
+    "message": "and start earning a 2x bonus on credits for the upcoming premium model",
+    "description": "Description for premium credits bonus."
+  },
+  "claimN8nCloudTrial": {
+    "message": "Claim n8n Cloud Hosting 14-day Free Trial",
+    "description": "Button text for n8n Cloud trial."
+  },
+  "getBlotato": {
+    "message": "Get Blotato",
+    "description": "Button text for Blotato API."
+  },
+  "addSocialMediaPosting": {
+    "message": "to start adding cross-platform social media posting to your workflows",
+    "description": "Description for Blotato API benefit."
+  },
+  "getElevenLabs": {
+    "message": "Get the ElevenLabs API",
+    "description": "Button text for ElevenLabs API."
+  },
+  "addAiVoiceOvers": {
+    "message": "to start adding AI generated voice overs, music, and sound to your workflows",
+    "description": "Description for ElevenLabs API benefit."
+  },
+  "getPiApi": {
+    "message": "Get PiAPI",
+    "description": "Button text for PiAPI."
+  },
+  "addAiImagesVideos": {
+    "message": "to start adding AI generated images and videos to your workflows",
+    "description": "Description for PiAPI benefit."
+  },
+  "newChat": {
+    "message": "New Chat",
+    "description": "Button text and tooltip for starting a new chat."
+  },
+  "attachImage": {
+    "message": "Attach Image",
+    "description": "Button text and tooltip for attaching an image to chat."
+  },
+  "dragToReposition": {
+    "message": "Drag to reposition chat (double-click to reset)",
+    "description": "Tooltip for drag handle."
+  },
+  "dragToRepositionChat": {
+    "message": "Drag to reposition chat (double-click to reset)",
+    "description": "Tooltip for drag handle."
+  },
+  "unexpectedError": {
+    "message": "An unexpected error occurred",
+    "description": "Generic error message."
+  },
+  "authenticationError": {
+    "message": "Authentication error: Please check that your API key is valid and has not expired.",
+    "description": "Error message for authentication issues."
+  },
+  "rateLimitExceeded": {
+    "message": "Rate limit exceeded: You've hit OpenAI's rate limits. Please try again after a short wait.",
+    "description": "Error message for rate limit issues."
+  },
+  "insufficientCredits": {
+    "message": "Insufficient credits: Your OpenAI account lacks sufficient credits to make this request.",
+    "description": "Error message for insufficient credits."
+  },
+  "invalidApiKey": {
+    "message": "Invalid API key: The API key provided is incorrect or malformed.",
+    "description": "Error message for invalid API key."
+  },
+  "contextWindowExceeded": {
+    "message": "Context window limit exceeded: The conversation is too long for the model to handle. Please start a new chat or reduce the input length.",
+    "description": "Error message for context window limit."
+  },
+  "openAiApiError": {
+    "message": "OpenAI API Error",
+    "description": "Part of the error message specific to OpenAI API."
+  },
+  "logout": {
+    "message": "Logout",
+    "description": "Button text for logout."
+  },
+  "signInUsingEmail": {
+    "message": "Sign in using your email",
+    "description": "Title for email login."
+  },
+  "weSendSecureLoginLink": {
+    "message": "We'll send a secure login link to your email, be sure to open it in this same browser to sign in.",
+    "description": "Description of email login process."
+  },
+  "email": {
+    "message": "Email",
+    "description": "Label for email field."
+  },
+  "loginLinkSent": {
+    "message": "Login link sent! Check your email.",
+    "description": "Success message for sending login link."
+  },
+  "sendLoginLink": {
+    "message": "Send Login Link",
+    "description": "Button text for sending login link."
+  },
+  "goBack": {
+    "message": "Go Back",
+    "description": "Button text to go back."
+  },
+  "unlockMoreFeatures": {
+    "message": "Unlock More Features",
+    "description": "Title for unlocking more features."
+  },
+  "goAdFreeEnhanceWorkflowAutomation": {
+    "message": "Go ad-free and enhance your workflow automation with premium capabilities.",
+    "description": "Description for unlocking premium features."
+  },
+  "alreadyHaveAnAccount": {
+    "message": "Already have an account?",
+    "description": "Text for users who already have an account."
+  },
+  "signIn": {
+    "message": "Sign In",
+    "description": "Button text for sign in."
+  },
+  "manageSubscriptionWithStripe": {
+    "message": "Manage your subscription with Stripe",
+    "description": "Link text to manage subscription with Stripe."
+  },
+  "errorLoadingSettings": {
+    "message": "Error: Could not load settings.",
+    "description": "Error message for loading settings."
+  },
+  "upgradeYourPlan": {
+    "message": "Upgrade Your Plan",
+    "description": "Title for upgrading plan."
+  },
+  "enhanceWorkflowAutomation": {
+    "message": "Enhance your workflow automation with premium capabilities.",
+    "description": "Description for upgrading plan."
+  },
+  "getSubscription": {
+    "message": "Get a Subscription",
+    "description": "Title for getting a subscription."
+  },
+  "enhanceWorkflowAutomationSubscription": {
+    "message": "Enhance your workflow automation with our subscription plans.",
+    "description": "Description for getting a subscription."
+  },
+  "freePlan": {
+    "message": "Free",
+    "description": "Label for the free plan."
+  },
+  "freePlanDescription": {
+    "message": "Occasionally displays ads",
+    "description": "Description for the free plan."
+  },
+  "adFreePlan": {
+    "message": "Ad-Free",
+    "description": "Label for the ad-free plan."
+  },
+  "popular": {
+    "message": "Popular",
+    "description": "Label indicating a popular plan."
+  },
+  "currentPlan": {
+    "message": "Current Plan",
+    "description": "Label indicating the user's current plan."
+  },
+  "premiumPlan": {
+    "message": "Premium",
+    "description": "Label for the premium plan."
+  },
+  "earlyAccess": {
+    "message": "Early Access",
+    "description": "Label indicating early access for a plan."
+  },
+  "perMonth": {
+    "message": "/month",
+    "description": "Text indicating price per month."
+  },
+  "monthly": {
+    "message": "Monthly",
+    "description": "Label for monthly billing option."
+  },
+  "yearly": {
+    "message": "Yearly",
+    "description": "Label for yearly billing option."
+  },
+  "selectUpgrade": {
+    "message": "Select an Upgrade",
+    "description": "Button text when no upgrade is selected."
+  },
+  "upgrade": {
+    "message": "Upgrade",
+    "description": "Button text for upgrading."
+  },
+  "upgradeToPremiumPlan": {
+    "message": "Upgrade to Premium",
+    "description": "Button text for upgrading to premium plan."
+  },
+  "saveWithAnnual": {
+    "message": "Save {percentage}% with Annual Billing",
+    "description": "Title for annual savings modal, {percentage} is replaced with the savings percentage."
+  },
+  "twoMonthsFree": {
+    "message": "2 months free",
+    "description": "Text indicating two months free with annual billing."
+  },
+  "savingsMessage": {
+    "message": "Get <span class=\"plasmo-font-bold plasmo-text-primary\">{freeMonths}</span> and save ${savings} when you switch to annual billing.",
+    "description": "Message about savings with annual billing, {freeMonths} and {savings} are placeholders."
+  },
+  "monthlyCost": {
+    "message": "Monthly:",
+    "description": "Label for monthly cost in savings modal."
+  },
+  "annualCost": {
+    "message": "Annual:",
+    "description": "Label for annual cost in savings modal."
+  },
+  "yourSavings": {
+    "message": "Your savings:",
+    "description": "Label for savings amount in savings modal."
+  },
+  "switchToAnnual": {
+    "message": "Switch to Annual",
+    "description": "Button text to switch to annual billing."
+  },
+  "noThanks": {
+    "message": "No, Thanks",
+    "description": "Button text to decline annual billing."
+  },
+  "earlyAccessTooltip1": {
+    "message": "Access new features first",
+    "description": "First line of early access tooltip."
+  },
+  "earlyAccessTooltip2": {
+    "message": "Coming soon:",
+    "description": "Second line of early access tooltip."
+  },
+  "earlyAccessTooltip3": {
+    "message": "Premium AI model, no API key required",
+    "description": "Third line of early access tooltip."
+  },
+  "earlyAccessTooltip4": {
+    "message": "Early adopters will receive credits backdated to their start date, with a 2x bonus",
+    "description": "Fourth line of early access tooltip."
+  },
+  "analyzingNodeIssues": {
+    "message": "Analyzing node issues",
+    "description": "Status message when AI is analyzing node issues after node creation."
+  },
+  "modelSubtitleO3": {
+    "message": "Most powerful reasoning model",
+    "description": "Subtitle for the o3 model in provider selection."
+  },
+  "modelSubtitleGpt41": {
+    "message": "Flagship GPT model",
+    "description": "Subtitle for the gpt-4.1 model in provider selection."
+  },
+  "modelSubtitleO4Mini": {
+    "message": "Faster, more affordable reasoning model",
+    "description": "Subtitle for the o4-mini model in provider selection."
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "Most powerful thinking model",
+    "description": "Subtitle for the Gemini 2.5 Pro model in provider selection."
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "Best price/performance balance",
+    "description": "Subtitle for the Gemini 2.5 Flash model in provider selection."
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "Most affordable model",
+    "description": "Subtitle for the Gemini 2.0 Flash model in provider selection."
+  },
+  "providerSubtitleRecommended": {
+    "message": "Recommended",
+    "description": "Subtitle for a recommended provider."
+  },
+  "customSystemInstructions": {
+    "message": "Custom System Instructions",
+    "description": "Label for custom system instructions setting."
+  },
+  "customSystemInstructionsDesc": {
+    "message": "Enter instructions you want to be included with the initial system prompt in every chat.",
+    "description": "Description for custom system instructions setting."
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "Enter your custom instructions here",
+    "description": "Placeholder text for custom system instructions input."
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "This feature is currently in early access for n8nChat Premium members only. Please login to a n8nChat premium account to use this feature.",
+    "description": "Placeholder text shown when custom instructions feature requires premium access."
+  }
+} 

@@ -1,0 +1,50 @@
+{
+  "analyzingNodeIssues": {
+    "message": "Analisando problemas de nó",
+    "description": "Mensagem de status quando a IA está analisando problemas de nó após a criação de nós."
+  },
+  "modelSubtitleO3": {
+    "message": "Modelo de raciocínio mais poderoso",
+    "description": "Legenda para o modelo o3 na seleção de provedor."
+  },
+  "modelSubtitleGpt41": {
+    "message": "Modelo GPT principal",
+    "description": "Legenda para o modelo gpt-4.1 na seleção de provedor."
+  },
+  "modelSubtitleO4Mini": {
+    "message": "Modelo de raciocínio mais rápido e acessível",
+    "description": "Legenda para o modelo o4-mini na seleção de provedor."
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "Modelo de pensamento mais poderoso",
+    "description": "Legenda para o modelo Gemini 2.5 Pro."
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "Melhor equilíbrio entre preço e desempenho",
+    "description": "Legenda para o modelo Gemini 2.5 Flash."
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "Modelo mais acessível",
+    "description": "Legenda para o modelo Gemini 2.0 Flash."
+  },
+  "providerSubtitleRecommended": {
+    "message": "Recomendado",
+    "description": "Legenda para um provedor recomendado."
+  },
+  "customSystemInstructions": {
+    "message": "Instruções de sistema personalizadas",
+    "description": "Rótulo para configurações de instruções de sistema personalizadas."
+  },
+  "customSystemInstructionsDesc": {
+    "message": "Digite instruções que você quer incluir com o prompt de sistema inicial em cada chat.",
+    "description": "Descrição para configurações de instruções de sistema personalizadas."
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "Digite suas instruções personalizadas aqui",
+    "description": "Texto placeholder para input de instruções de sistema personalizadas."
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "Esta funcionalidade está atualmente em acesso antecipado apenas para membros n8nChat Premium. Por favor, faça login em uma conta n8nChat premium para usar esta funcionalidade.",
+    "description": "Texto placeholder mostrado quando a funcionalidade de instruções personalizadas requer acesso premium."
+  }
+} 

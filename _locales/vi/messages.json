@@ -1,0 +1,642 @@
+{
+  "extensionName": {
+    "message": "n8nChat",
+    "description": "Tên của tiện ích mở rộng."
+  },
+  "extensionDescription": {
+    "message": "Một trợ lý n8n tạo các nút và luồng công việc bằng AI.",
+    "description": "Mô tả về tiện ích mở rộng."
+  },
+  "activateOnCurrentPage": {
+    "message": "Kích hoạt trên Trang Hiện tại",
+    "description": "Nút văn bản để kích hoạt tiện ích trên trang hiện tại."
+  },
+  "activating": {
+    "message": "Đang kích hoạt...",
+    "description": "Nút văn bản hiển thị khi quá trình kích hoạt đang diễn ra."
+  },
+  "activationFailed": {
+    "message": "Kích hoạt Thất bại",
+    "description": "Nút văn bản hiển thị khi kích hoạt thất bại."
+  },
+  "notWorkflowPage": {
+    "message": "Không phải Trang Luồng Công việc",
+    "description": "Nút văn bản hiển thị khi trang hiện tại không phải là trang luồng công việc."
+  },
+  "n8nChatActivated": {
+    "message": "n8nChat đã được kích hoạt",
+    "description": "Thông báo hiển thị khi tiện ích được kích hoạt."
+  },
+  "selfHostingActivate": {
+    "message": "Tự lưu trữ? Điều hướng đến luồng công việc của bạn, sau đó kích hoạt tiện ích bằng cách nhấn nút bên dưới:",
+    "description": "Hướng dẫn cho người dùng tự lưu trữ để kích hoạt tiện ích."
+  },
+  "autoActivateHosted": {
+    "message": "n8nChat tự động kích hoạt cho các luồng công việc được lưu trữ trên n8n",
+    "description": "Ghi chú về kích hoạt tự động cho các luồng công việc được lưu trữ."
+  },
+  "n8nHostedLink": {
+    "message": "n8n được lưu trữ",
+    "description": "Văn bản liên kết cho các luồng công việc được lưu trữ trên n8n."
+  },
+  "noApiKeyWarning": {
+    "message": "Cần có khóa API để sử dụng n8nChat",
+    "description": "Thông báo cảnh báo khi chưa có khóa API được thiết lập."
+  },
+  "settings": {
+    "message": "Cài đặt",
+    "description": "Tiêu đề cho phần cài đặt."
+  },
+  "account": {
+    "message": "Tài khoản",
+    "description": "Tiêu đề tab cho cài đặt tài khoản."
+  },
+  "api": {
+    "message": "API",
+    "description": "Tiêu đề tab cho cài đặt API."
+  },
+  "chat": {
+    "message": "Trò chuyện",
+    "description": "Tiêu đề tab cho cài đặt trò chuyện."
+  },
+  "configureActivate": {
+    "message": "Kích hoạt & Cấu hình",
+    "description": "Tiêu đề cho kích hoạt và cấu hình."
+  },
+  "provider": {
+    "message": "Nhà cung cấp",
+    "description": "Nhãn cho lựa chọn nhà cung cấp API."
+  },
+  "model": {
+    "message": "Mô hình",
+    "description": "Nhãn cho lựa chọn mô hình."
+  },
+  "selectProvider": {
+    "message": "Chọn Nhà cung cấp",
+    "description": "Văn bản giữ chỗ cho lựa chọn nhà cung cấp."
+  },
+  "selectModel": {
+    "message": "Chọn một mô hình",
+    "description": "Văn bản giữ chỗ cho lựa chọn mô hình."
+  },
+  "enterApiKeyFirst": {
+    "message": "Nhập khóa API trước",
+    "description": "Văn bản giữ chỗ khi chưa nhập khóa API."
+  },
+  "loading": {
+    "message": "Đang tải...",
+    "description": "Văn bản hiển thị khi đang tải mô hình."
+  },
+  "noModelsFound": {
+    "message": "Không tìm thấy mô hình nào",
+    "description": "Thông báo khi không có mô hình nào khả dụng."
+  },
+  "apiKey": {
+    "message": "Khóa API",
+    "description": "Nhãn cho đầu vào khóa API."
+  },
+  "enterApiKey": {
+    "message": "Nhập khóa API",
+    "description": "Giữ chỗ cho đầu vào khóa API."
+  },
+  "getOpenAiApiKey": {
+    "message": "Lấy Khóa API OpenAI",
+    "description": "Văn bản liên kết để lấy khóa API OpenAI."
+  },
+  "billingInfoRequiredBefore": {
+    "message": "Bạn phải có thông tin",
+    "description": "Phần của thông báo thông tin thanh toán trước liên kết."
+  },
+  "billingInfoRequiredAfter": {
+    "message": "thiết lập hợp lệ với OpenAI",
+    "description": "Phần của thông báo thông tin thanh toán sau liên kết."
+  },
+  "billingInfo": {
+    "message": "thanh toán",
+    "description": "Văn bản liên kết cho thông tin thanh toán."
+  },
+  "setup": {
+    "message": " thiết lập với OpenAI",
+    "description": "Phần của văn bản về thiết lập thanh toán."
+  },
+  "notWorking": {
+    "message": "Không hoạt động?",
+    "description": "Văn bản cho vấn đề khắc phục sự cố."
+  },
+  "setupTutorial": {
+    "message": "Xem hướng dẫn thiết lập",
+    "description": "Văn bản liên kết cho hướng dẫn thiết lập."
+  },
+  "getAnthropicKey": {
+    "message": "Lấy Khóa Anthropic",
+    "description": "Văn bản liên kết để lấy khóa API Anthropic."
+  },
+  "getGoogleKey": {
+    "message": "Lấy Khóa Google",
+    "description": "Văn bản liên kết để lấy khóa API Google."
+  },
+  "noPublicKeyLink": {
+    "message": "(Không có liên kết khóa công khai nào khả dụng)",
+    "description": "Văn bản khi không có liên kết khóa công khai nào khả dụng."
+  },
+  "reasoningLevel": {
+    "message": "Mức độ Suy luận",
+    "description": "Nhãn cho lựa chọn mức độ suy luận."
+  },
+  "low": {
+    "message": "Thấp",
+    "description": "Tùy chọn cho mức độ suy luận thấp."
+  },
+  "medium": {
+    "message": "Trung bình",
+    "description": "Tùy chọn cho mức độ suy luận trung bình."
+  },
+  "high": {
+    "message": "Cao",
+    "description": "Tùy chọn cho mức độ suy luận cao."
+  },
+  "reasoningLevelTooltip": {
+    "message": "Thấp sẽ ưu tiên tốc độ và sử dụng token tiết kiệm, trong khi cao sẽ ưu tiên suy luận hoàn chỉnh hơn với chi phí tạo ra nhiều token hơn và phản hồi chậm hơn.",
+    "description": "Chú giải công cụ cho mức độ suy luận."
+  },
+  "temperature": {
+    "message": "Nhiệt độ",
+    "description": "Nhãn cho thanh trượt nhiệt độ."
+  },
+  "temperatureTooltip": {
+    "message": "Điều chỉnh mức độ sáng tạo hoặc an toàn của các phản hồi. Cài đặt thấp giữ cho mọi thứ có thể dự đoán và đúng chủ đề, trong khi cài đặt cao làm cho nó sáng tạo và tự do hơn.",
+    "description": "Chú giải công cụ cho cài đặt nhiệt độ."
+  },
+  "topP": {
+    "message": "Top P",
+    "description": "Nhãn cho thanh trượt Top P."
+  },
+  "topPTooltip": {
+    "message": "Quyết định mức độ đa dạng của các câu trả lời. Cài đặt thấp bám vào các lựa chọn rõ ràng nhất, trong khi cài đặt cao kết hợp nhiều lựa chọn bất ngờ hơn.",
+    "description": "Chú giải công cụ cho cài đặt Top P."
+  },
+  "maxTokens": {
+    "message": "Token Tối đa",
+    "description": "Nhãn cho thanh trượt Token Tối đa."
+  },
+  "maxTokensTooltip": {
+    "message": "Số lượng token tối đa để tạo ra trong phản hồi. Giá trị thấp hơn có thể giúp kiểm soát chi phí cho các lời nhắc lớn.",
+    "description": "Chú giải công cụ cho cài đặt Token Tối đa."
+  },
+  "restoreDefaults": {
+    "message": "Khôi phục Mặc định",
+    "description": "Nút văn bản để khôi phục cài đặt mặc định."
+  },
+  "warningExpensiveModel": {
+    "message": "Cảnh báo: Mô hình này đắt tiền",
+    "description": "Thông báo cảnh báo cho các mô hình đắt tiền."
+  },
+  "moreProvidersSoon": {
+    "message": "Sẽ có thêm nhà cung cấp trong giai đoạn truy cập sớm",
+    "description": "Thông báo chú giải về các nhà cung cấp sắp tới."
+  },
+  "includeWorkflowContext": {
+    "message": "Bao gồm Ngữ cảnh Luồng Công việc",
+    "description": "Nhãn cho việc bao gồm ngữ cảnh luồng công việc trong trò chuyện."
+  },
+  "includeWorkflowContextDesc": {
+    "message": "Gửi dữ liệu luồng công việc hiện tại của bạn khi bắt đầu trò chuyện",
+    "description": "Mô tả cho việc bao gồm ngữ cảnh luồng công việc."
+  },
+  "saveUIPosition": {
+    "message": "Lưu Vị trí Giao diện Người dùng",
+    "description": "Nhãn cho việc lưu vị trí giao diện người dùng."
+  },
+  "saveUIPositionDesc": {
+    "message": "Bảo tồn vị trí giao diện trò chuyện giữa các lần tải lại",
+    "description": "Mô tả cho việc lưu vị trí giao diện người dùng."
+  },
+  "tools": {
+    "message": "Công cụ",
+    "description": "Tiêu đề phần cho cài đặt công cụ."
+  },
+  "workflowAccess": {
+    "message": "Truy cập Luồng Công việc",
+    "description": "Nhãn cho nút bật/tắt truy cập luồng công việc."
+  },
+  "workflowAccessDesc": {
+    "message": "Cho phép trò chuyện kiểm tra dữ liệu từ luồng công việc hiện tại của bạn",
+    "description": "Mô tả cho truy cập luồng công việc."
+  },
+  "nodeLibraryAccess": {
+    "message": "Truy cập Thư viện Nút",
+    "description": "Nhãn cho nút bật/tắt truy cập thư viện nút."
+  },
+  "nodeLibraryAccessDesc": {
+    "message": "Cho phép trò chuyện duyệt danh sách các nút đã cài đặt của bạn",
+    "description": "Mô tả cho truy cập thư viện nút."
+  },
+  "nodeCreation": {
+    "message": "Tạo Nút",
+    "description": "Nhãn cho nút bật/tắt tạo nút."
+  },
+  "nodeCreationDesc": {
+    "message": "Cho phép trò chuyện thêm nút vào luồng công việc",
+    "description": "Mô tả cho tạo nút."
+  },
+  "nodeEditing": {
+    "message": "Chỉnh sửa Nút",
+    "description": "Nhãn cho nút bật/tắt chỉnh sửa nút."
+  },
+  "nodeEditingDesc": {
+    "message": "Cho phép trò chuyện chỉnh sửa tham số của các nút trong luồng công việc của bạn",
+    "description": "Mô tả cho chỉnh sửa nút."
+  },
+  "nodeRemoval": {
+    "message": "Xóa Nút",
+    "description": "Nhãn cho nút bật/tắt xóa nút."
+  },
+  "nodeRemovalDesc": {
+    "message": "Cho phép trò chuyện xóa nút khỏi luồng công việc của bạn",
+    "description": "Mô tả cho xóa nút."
+  },
+  "affiliateRecommendations": {
+    "message": "Đề xuất Liên kết",
+    "description": "Nhãn cho nút bật/tắt đề xuất liên kết."
+  },
+  "affiliateRecommendationsDesc": {
+    "message": "Cho phép trò chuyện bao gồm các liên kết liên kết trong các đề xuất dịch vụ bên ngoài",
+    "description": "Mô tả cho đề xuất liên kết."
+  },
+  "requiresSubscription": {
+    "message": "Yêu cầu đăng ký đang hoạt động để tắt",
+    "description": "Chú giải công cụ cho đề xuất liên kết khi cần đăng ký."
+  },
+  "askAnything": {
+    "message": "Hỏi tôi bất cứ điều gì về luồng công việc của bạn...",
+    "description": "Văn bản giữ chỗ mặc định trong đầu vào trò chuyện."
+  },
+  "createSocialMediaWorkflow": {
+    "message": "Tạo một luồng công việc để giúp tôi tự động hóa mạng xã hội của mình.",
+    "description": "Gợi ý giữ chỗ cho luồng công việc mạng xã hội."
+  },
+  "optimizeWorkflow": {
+    "message": "Bạn sẽ tối ưu hóa luồng công việc này như thế nào?",
+    "description": "Gợi ý giữ chỗ cho tối ưu hóa luồng công việc."
+  },
+  "createStickyNotes": {
+    "message": "Tạo ghi chú dính giải thích luồng công việc này.",
+    "description": "Gợi ý giữ chỗ cho ghi chú dính."
+  },
+  "workflowNotWorking": {
+    "message": "Tại sao luồng công việc của tôi không hoạt động?",
+    "description": "Gợi ý giữ chỗ cho khắc phục sự cố luồng công việc."
+  },
+  "useAiAgentNode": {
+    "message": "Làm thế nào để sử dụng nút Tác nhân AI?",
+    "description": "Gợi ý giữ chỗ cho việc sử dụng nút Tác nhân AI."
+  },
+  "optimizeThis": {
+    "message": "Có cách nào để tối ưu hóa điều này không?",
+    "description": "Gợi ý giữ chỗ cho truy vấn tối ưu hóa."
+  },
+  "explainWorkflow": {
+    "message": "Giải thích luồng công việc này cho tôi từng bước.",
+    "description": "Gợi ý giữ chỗ cho giải thích luồng công việc."
+  },
+  "thinking": {
+    "message": "Đang suy nghĩ",
+    "description": "Thông báo trạng thái khi AI đang suy nghĩ."
+  },
+  "browsingNodes": {
+    "message": "Đang duyệt các nút",
+    "description": "Thông báo trạng thái khi AI đang duyệt các nút."
+  },
+  "reviewingNodeConfig": {
+    "message": "Đang xem xét cấu hình nút",
+    "description": "Thông báo trạng thái khi AI đang xem xét cấu hình nút."
+  },
+  "examiningConnections": {
+    "message": "Đang kiểm tra kết nối nút",
+    "description": "Thông báo trạng thái khi AI đang kiểm tra kết nối nút."
+  },
+  "reviewingWorkflow": {
+    "message": "Đang xem xét luồng công việc của bạn",
+    "description": "Thông báo trạng thái khi AI đang xem xét luồng công việc."
+  },
+  "updatingParameters": {
+    "message": "Đang cập nhật tham số nút",
+    "description": "Thông báo trạng thái khi AI đang cập nhật tham số."
+  },
+  "removingNodes": {
+    "message": "Đang xóa các nút",
+    "description": "Thông báo trạng thái khi AI đang xóa các nút."
+  },
+  "creatingNodes": {
+    "message": "Đang tạo các nút",
+    "description": "Thông báo trạng thái khi AI đang tạo các nút."
+  },
+  "processing": {
+    "message": "Đang xử lý",
+    "description": "Thông báo trạng thái chung khi AI đang xử lý."
+  },
+  "upgradeToPremium": {
+    "message": "Nâng cấp lên Cao cấp",
+    "description": "Nút văn bản để nâng cấp lên cao cấp."
+  },
+  "getEarlyAccess": {
+    "message": "để có quyền truy cập sớm vào các tính năng mới và xóa quảng cáo",
+    "description": "Mô tả lợi ích nâng cấp cao cấp."
+  },
+  "goAdFree": {
+    "message": "Không Quảng cáo",
+    "description": "Nút văn bản để nâng cấp gói cơ bản."
+  },
+  "improveExperience": {
+    "message": "để cải thiện trải nghiệm của bạn và hỗ trợ nhà phát triển",
+    "description": "Mô tả lợi ích gói cơ bản."
+  },
+  "premiumCreditsBonus": {
+    "message": "và bắt đầu kiếm được tiền thưởng gấp 2 lần tín dụng cho mô hình cao cấp sắp tới",
+    "description": "Mô tả tiền thưởng tín dụng cao cấp."
+  },
+  "claimN8nCloudTrial": {
+    "message": "Nhận Thử nghiệm Miễn phí 14 ngày Lưu trữ Đám mây n8n",
+    "description": "Nút văn bản cho thử nghiệm đám mây n8n."
+  },
+  "getBlotato": {
+    "message": "Lấy Blotato",
+    "description": "Nút văn bản cho API Blotato."
+  },
+  "addSocialMediaPosting": {
+    "message": "để bắt đầu thêm đăng bài mạng xã hội đa nền tảng vào luồng công việc của bạn",
+    "description": "Mô tả lợi ích API Blotato."
+  },
+  "getElevenLabs": {
+    "message": "Lấy API ElevenLabs",
+    "description": "Nút văn bản cho API ElevenLabs."
+  },
+  "addAiVoiceOvers": {
+    "message": "để bắt đầu thêm lồng tiếng, nhạc và âm thanh do AI tạo vào luồng công việc của bạn",
+    "description": "Mô tả lợi ích API ElevenLabs."
+  },
+  "getPiApi": {
+    "message": "Lấy PiAPI",
+    "description": "Nút văn bản cho PiAPI."
+  },
+  "addAiImagesVideos": {
+    "message": "để bắt đầu thêm hình ảnh và video do AI tạo vào luồng công việc của bạn",
+    "description": "Mô tả lợi ích PiAPI."
+  },
+  "newChat": {
+    "message": "Trò chuyện Mới",
+    "description": "Nút văn bản và chú giải công cụ để bắt đầu trò chuyện mới."
+  },
+  "dragToReposition": {
+    "message": "Kéo để định vị lại trò chuyện (nhấp đúp để đặt lại)",
+    "description": "Chú giải công cụ cho tay cầm kéo."
+  },
+  "dragToRepositionChat": {
+    "message": "Kéo để định vị lại trò chuyện (nhấp đúp để đặt lại)",
+    "description": "Chú giải công cụ cho tay cầm kéo."
+  },
+  "unexpectedError": {
+    "message": "Đã xảy ra lỗi không mong muốn",
+    "description": "Thông báo lỗi chung."
+  },
+  "authenticationError": {
+    "message": "Lỗi xác thực: Vui lòng kiểm tra xem khóa API của bạn có hợp lệ và chưa hết hạn hay không.",
+    "description": "Thông báo lỗi cho các vấn đề xác thực."
+  },
+  "rateLimitExceeded": {
+    "message": "Vượt quá giới hạn tốc độ: Bạn đã đạt giới hạn tốc độ của OpenAI. Vui lòng thử lại sau một chút.",
+    "description": "Thông báo lỗi cho các vấn đề giới hạn tốc độ."
+  },
+  "insufficientCredits": {
+    "message": "Không đủ tín dụng: Tài khoản OpenAI của bạn thiếu tín dụng đủ để thực hiện yêu cầu này.",
+    "description": "Thông báo lỗi cho tín dụng không đủ."
+  },
+  "invalidApiKey": {
+    "message": "Khóa API không hợp lệ: Khóa API được cung cấp không chính xác hoặc bị lỗi.",
+    "description": "Thông báo lỗi cho khóa API không hợp lệ."
+  },
+  "contextWindowExceeded": {
+    "message": "Vượt quá giới hạn cửa sổ ngữ cảnh: Cuộc trò chuyện quá dài để mô hình xử lý. Vui lòng bắt đầu trò chuyện mới hoặc giảm độ dài đầu vào.",
+    "description": "Thông báo lỗi cho giới hạn cửa sổ ngữ cảnh."
+  },
+  "openAiApiError": {
+    "message": "Lỗi API OpenAI",
+    "description": "Phần của thông báo lỗi cụ thể cho API OpenAI."
+  },
+  "logout": {
+    "message": "Đăng xuất",
+    "description": "Nút văn bản để đăng xuất."
+  },
+  "signInUsingEmail": {
+    "message": "Đăng nhập bằng email của bạn",
+    "description": "Tiêu đề cho đăng nhập bằng email."
+  },
+  "weSendSecureLoginLink": {
+    "message": "Chúng tôi sẽ gửi một liên kết đăng nhập an toàn đến email của bạn, hãy đảm bảo mở nó trong cùng trình duyệt này để đăng nhập.",
+    "description": "Mô tả về quy trình đăng nhập bằng email."
+  },
+  "email": {
+    "message": "Email",
+    "description": "Nhãn cho trường email."
+  },
+  "loginLinkSent": {
+    "message": "Liên kết đăng nhập đã được gửi! Kiểm tra email của bạn.",
+    "description": "Thông báo thành công khi gửi liên kết đăng nhập."
+  },
+  "sendLoginLink": {
+    "message": "Gửi Liên kết Đăng nhập",
+    "description": "Nút văn bản để gửi liên kết đăng nhập."
+  },
+  "goBack": {
+    "message": "Quay lại",
+    "description": "Nút văn bản để quay lại."
+  },
+  "unlockMoreFeatures": {
+    "message": "Mở khóa Thêm Tính năng",
+    "description": "Tiêu đề để mở khóa thêm tính năng."
+  },
+  "goAdFreeEnhanceWorkflowAutomation": {
+    "message": "Không quảng cáo và nâng cao tự động hóa luồng công việc của bạn với các khả năng cao cấp.",
+    "description": "Mô tả để mở khóa các tính năng cao cấp."
+  },
+  "alreadyHaveAnAccount": {
+    "message": "Đã có tài khoản?",
+    "description": "Văn bản cho người dùng đã có tài khoản."
+  },
+  "signIn": {
+    "message": "Đăng nhập",
+    "description": "Nút văn bản để đăng nhập."
+  },
+  "manageSubscriptionWithStripe": {
+    "message": "Quản lý đăng ký của bạn với Stripe",
+    "description": "Văn bản liên kết để quản lý đăng ký với Stripe."
+  },
+  "errorLoadingSettings": {
+    "message": "Lỗi: Không thể tải cài đặt.",
+    "description": "Thông báo lỗi khi tải cài đặt."
+  },
+  "upgradeYourPlan": {
+    "message": "Nâng cấp Gói của Bạn",
+    "description": "Tiêu đề để nâng cấp gói."
+  },
+  "enhanceWorkflowAutomation": {
+    "message": "Nâng cao tự động hóa luồng công việc của bạn với các khả năng cao cấp.",
+    "description": "Mô tả để nâng cấp gói."
+  },
+  "getSubscription": {
+    "message": "Nhận Đăng ký",
+    "description": "Tiêu đề để nhận đăng ký."
+  },
+  "enhanceWorkflowAutomationSubscription": {
+    "message": "Nâng cao tự động hóa luồng công việc của bạn với các gói đăng ký của chúng tôi.",
+    "description": "Mô tả để nhận đăng ký."
+  },
+  "freePlan": {
+    "message": "Miễn phí",
+    "description": "Nhãn cho gói miễn phí."
+  },
+  "freePlanDescription": {
+    "message": "Thỉnh thoảng hiển thị quảng cáo",
+    "description": "Mô tả cho gói miễn phí."
+  },
+  "adFreePlan": {
+    "message": "Không Quảng cáo",
+    "description": "Nhãn cho gói không quảng cáo."
+  },
+  "popular": {
+    "message": "Phổ biến",
+    "description": "Nhãn chỉ ra gói phổ biến."
+  },
+  "currentPlan": {
+    "message": "Gói Hiện tại",
+    "description": "Nhãn chỉ ra gói hiện tại của người dùng."
+  },
+  "premiumPlan": {
+    "message": "Cao cấp",
+    "description": "Nhãn cho gói cao cấp."
+  },
+  "earlyAccess": {
+    "message": "Truy cập Sớm",
+    "description": "Nhãn chỉ ra truy cập sớm cho một gói."
+  },
+  "perMonth": {
+    "message": "/tháng",
+    "description": "Văn bản chỉ ra giá mỗi tháng."
+  },
+  "monthly": {
+    "message": "Hàng tháng",
+    "description": "Nhãn cho tùy chọn thanh toán hàng tháng."
+  },
+  "yearly": {
+    "message": "Hàng năm",
+    "description": "Nhãn cho tùy chọn thanh toán hàng năm."
+  },
+  "selectUpgrade": {
+    "message": "Chọn Nâng cấp",
+    "description": "Nút văn bản khi chưa chọn nâng cấp."
+  },
+  "upgrade": {
+    "message": "Nâng cấp",
+    "description": "Nút văn bản để nâng cấp."
+  },
+  "upgradeToPremiumPlan": {
+    "message": "Nâng cấp lên Premium",
+    "description": "Văn bản nút để nâng cấp lên gói premium."
+  },
+  "saveWithAnnual": {
+    "message": "Tiết kiệm {percentage}% với Thanh toán Hàng năm",
+    "description": "Tiêu đề cho modal tiết kiệm hàng năm, {percentage} được thay thế bằng phần trăm tiết kiệm."
+  },
+  "twoMonthsFree": {
+    "message": "2 tháng miễn phí",
+    "description": "Văn bản chỉ ra hai tháng miễn phí với thanh toán hàng năm."
+  },
+  "savingsMessage": {
+    "message": "Nhận <span class=\"plasmo-font-bold plasmo-text-primary\">{freeMonths}</span> và tiết kiệm ${savings} khi bạn chuyển sang thanh toán hàng năm.",
+    "description": "Thông báo về tiết kiệm với thanh toán hàng năm, {freeMonths} và {savings} là các giữ chỗ."
+  },
+  "monthlyCost": {
+    "message": "Hàng tháng:",
+    "description": "Nhãn cho chi phí hàng tháng trong modal tiết kiệm."
+  },
+  "annualCost": {
+    "message": "Hàng năm:",
+    "description": "Nhãn cho chi phí hàng năm trong modal tiết kiệm."
+  },
+  "yourSavings": {
+    "message": "Tiết kiệm của bạn:",
+    "description": "Nhãn cho số tiền tiết kiệm trong modal tiết kiệm."
+  },
+  "switchToAnnual": {
+    "message": "Chuyển sang Hàng năm",
+    "description": "Nút văn bản để chuyển sang thanh toán hàng năm."
+  },
+  "noThanks": {
+    "message": "Không, Cảm ơn",
+    "description": "Nút văn bản để từ chối thanh toán hàng năm."
+  },
+  "earlyAccessTooltip1": {
+    "message": "Truy cập các tính năng mới đầu tiên",
+    "description": "Dòng đầu tiên của chú giải công cụ truy cập sớm."
+  },
+  "earlyAccessTooltip2": {
+    "message": "Sắp có:",
+    "description": "Dòng thứ hai của chú giải công cụ truy cập sớm."
+  },
+  "earlyAccessTooltip3": {
+    "message": "Mô hình AI cao cấp, không cần khóa API",
+    "description": "Dòng thứ ba của chú giải công cụ truy cập sớm."
+  },
+  "earlyAccessTooltip4": {
+    "message": "Người dùng sớm sẽ nhận được tín dụng tính ngược từ ngày bắt đầu của họ, với tiền thưởng gấp 2 lần",
+    "description": "Dòng thứ tư của chú giải công cụ truy cập sớm."
+  },
+  "analyzingNodeIssues": {
+    "message": "Đang phân tích các vấn đề nút",
+    "description": "Thông báo trạng thái khi AI đang phân tích các vấn đề nút sau khi tạo nút."
+  },
+  "modelSubtitleO3": {
+    "message": "Mô hình lý luận mạnh mẽ nhất",
+    "description": "Phụ đề cho mô hình o3."
+  },
+  "modelSubtitleGpt41": {
+    "message": "Mô hình GPT hàng đầu",
+    "description": "Phụ đề cho mô hình gpt-4.1."
+  },
+  "modelSubtitleO4Mini": {
+    "message": "Mô hình lý luận nhanh hơn, giá cả phải chăng hơn",
+    "description": "Phụ đề cho mô hình o4-mini."
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "Mô hình tư duy mạnh mẽ nhất",
+    "description": "Phụ đề cho mô hình Gemini 2.5 Pro."
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "Cân bằng tốt nhất giữa giá cả và hiệu suất",
+    "description": "Phụ đề cho mô hình Gemini 2.5 Flash."
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "Mô hình giá cả phải chăng nhất",
+    "description": "Phụ đề cho mô hình Gemini 2.0 Flash."
+  },
+  "providerSubtitleRecommended": {
+    "message": "Đề xuất",
+    "description": "Phụ đề cho một nhà cung cấp được đề xuất."
+  },
+  "customSystemInstructions": {
+    "message": "Hướng dẫn hệ thống tùy chỉnh",
+    "description": "Nhãn cho cài đặt hướng dẫn hệ thống tùy chỉnh."
+  },
+  "customSystemInstructionsDesc": {
+    "message": "Nhập các hướng dẫn mà bạn muốn bao gồm trong prompt hệ thống ban đầu của mỗi cuộc trò chuyện.",
+    "description": "Mô tả cho cài đặt hướng dẫn hệ thống tùy chỉnh."
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "Nhập hướng dẫn tùy chỉnh của bạn tại đây",
+    "description": "Văn bản placeholder cho input hướng dẫn hệ thống tùy chỉnh."
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "Tính năng này hiện đang trong giai đoạn truy cập sớm chỉ dành cho thành viên n8nChat Premium. Vui lòng đăng nhập vào tài khoản n8nChat premium để sử dụng tính năng này.",
+    "description": "Văn bản placeholder hiển thị khi tính năng hướng dẫn tùy chỉnh yêu cầu truy cập premium."
+  }
+} 

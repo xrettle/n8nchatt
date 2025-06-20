@@ -1,0 +1,638 @@
+{
+  "extensionName": {
+    "message": "n8nChat",
+    "description": "扩展程序的名称。"
+  },
+  "extensionDescription": {
+    "message": "一个使用AI生成节点和工作流程的n8n伴侣。",
+    "description": "扩展程序的描述。"
+  },
+  "activateOnCurrentPage": {
+    "message": "在当前页面激活",
+    "description": "在当前页面激活扩展程序的按钮文本。"
+  },
+  "activating": {
+    "message": "激活中...",
+    "description": "激活过程中显示的按钮文本。"
+  },
+  "activationFailed": {
+    "message": "激活失败",
+    "description": "激活失败时显示的按钮文本。"
+  },
+  "notWorkflowPage": {
+    "message": "这不是工作流程页面",
+    "description": "当前页面不是工作流程页面时显示的按钮文本。"
+  },
+  "n8nChatActivated": {
+    "message": "n8nChat已激活",
+    "description": "扩展程序激活时显示的消息。"
+  },
+  "selfHostingActivate": {
+    "message": "自托管用户？请登录您的工作流程，然后点击下方按钮激活扩展程序：",
+    "description": "自托管用户如何激活扩展程序的说明。"
+  },
+  "autoActivateHosted": {
+    "message": "对于在n8n上托管的工作流程，n8nChat会自动激活",
+    "description": "关于在n8n上托管的工作流程自动激活的说明。"
+  },
+  "n8nHostedLink": {
+    "message": "在n8n上托管",
+    "description": "在n8n上托管的工作流程的链接文本。"
+  },
+  "noApiKeyWarning": {
+    "message": "使用n8nChat需要API密钥",
+    "description": "未设置API密钥时显示的警告消息。"
+  },
+  "settings": {
+    "message": "设置",
+    "description": "设置部分的标题。"
+  },
+  "account": {
+    "message": "账户",
+    "description": "账户设置选项卡的标题。"
+  },
+  "api": {
+    "message": "API",
+    "description": "API设置选项卡的标题。"
+  },
+  "chat": {
+    "message": "聊天",
+    "description": "聊天设置选项卡的标题。"
+  },
+  "configureActivate": {
+    "message": "激活并配置",
+    "description": "激活和配置的标题文本。"
+  },
+  "provider": {
+    "message": "提供商",
+    "description": "API提供商选择标签。"
+  },
+  "model": {
+    "message": "模型",
+    "description": "模型选择标签。"
+  },
+  "selectProvider": {
+    "message": "选择提供商",
+    "description": "提供商选择的占位符文本。"
+  },
+  "selectModel": {
+    "message": "选择模型",
+    "description": "模型选择的占位符文本。"
+  },
+  "enterApiKeyFirst": {
+    "message": "请先输入API密钥",
+    "description": "未输入API密钥时显示的占位符文本。"
+  },
+  "loading": {
+    "message": "加载中...",
+    "description": "加载模型时显示的文本。"
+  },
+  "noModelsFound": {
+    "message": "未找到模型",
+    "description": "没有可用模型时显示的消息。"
+  },
+  "apiKey": {
+    "message": "API密钥",
+    "description": "API密钥输入字段标签。"
+  },
+  "enterApiKey": {
+    "message": "输入API密钥",
+    "description": "API密钥输入字段的占位符文本。"
+  },
+  "getOpenAiApiKey": {
+    "message": "获取OpenAI API密钥",
+    "description": "获取OpenAI API密钥的链接文本。"
+  },
+  "billingInfoRequiredBefore": {
+    "message": "您必须拥有",
+    "description": "关于账单信息消息的链接前部分。"
+  },
+  "billingInfoRequiredAfter": {
+    "message": "与OpenAI设置",
+    "description": "关于账单信息消息的链接后部分。"
+  },
+  "billingInfo": {
+    "message": "账单信息",
+    "description": "账单信息的链接文本。"
+  },
+  "setup": {
+    "message": " 与OpenAI设置",
+    "description": "关于账单信息设置的文本部分。"
+  },
+  "notWorking": {
+    "message": "不起作用？",
+    "description": "关于功能问题的文本。"
+  },
+  "setupTutorial": {
+    "message": "查看设置教程",
+    "description": "设置教程的链接文本。"
+  },
+  "getAnthropicKey": {
+    "message": "获取Anthropic密钥",
+    "description": "获取Anthropic密钥的链接文本。"
+  },
+  "getGoogleKey": {
+    "message": "获取Google密钥",
+    "description": "获取Google密钥的链接文本。"
+  },
+  "noPublicKeyLink": {
+    "message": "（没有可用的公共密钥链接）",
+    "description": "没有提供公共密钥链接时显示的文本。"
+  },
+  "reasoningLevel": {
+    "message": "推理级别",
+    "description": "推理级别选择标签。"
+  },
+  "low": {
+    "message": "低",
+    "description": "低推理级别选项。"
+  },
+  "medium": {
+    "message": "中",
+    "description": "中推理级别选项。"
+  },
+  "high": {
+    "message": "高",
+    "description": "高推理级别选项。"
+  },
+  "reasoningLevelTooltip": {
+    "message": "低级别优先考虑速度和令牌使用的经济性，而高级别则以生成更多令牌和较慢的响应为代价，偏向更彻底的推理。",
+    "description": "推理级别的工具提示。"
+  },
+  "temperature": {
+    "message": "温度",
+    "description": "温度滑块标签。"
+  },
+  "temperatureTooltip": {
+    "message": "控制响应的创造性或安全性。较低的设置使响应可预测且与主题相关，而较高的设置使响应更具创造性和自由性。",
+    "description": "温度设置的工具提示。"
+  },
+  "topP": {
+    "message": "Top P",
+    "description": "Top P滑块标签。"
+  },
+  "topPTooltip": {
+    "message": "决定响应的多样性。较低的设置坚持最明显的选项，而较高的设置包括更多意外的选项。",
+    "description": "Top P设置的工具提示。"
+  },
+  "maxTokens": {
+    "message": "最大令牌数",
+    "description": "最大令牌数滑块标签。"
+  },
+  "maxTokensTooltip": {
+    "message": "响应中将生成的最大令牌数。较低的值可以帮助控制大型请求的成本。",
+    "description": "最大令牌数设置的工具提示。"
+  },
+  "restoreDefaults": {
+    "message": "恢复默认值",
+    "description": "恢复默认值按钮文本。"
+  },
+  "warningExpensiveModel": {
+    "message": "警告：此模型成本高昂",
+    "description": "昂贵模型的警告消息。"
+  },
+  "moreProvidersSoon": {
+    "message": "早期访问中即将推出更多提供商",
+    "description": "关于即将推出的提供商的通知消息。"
+  },
+  "includeWorkflowContext": {
+    "message": "包含工作流程上下文",
+    "description": "在聊天中包含工作流程上下文的标签。"
+  },
+  "includeWorkflowContextDesc": {
+    "message": "在聊天开始时发送当前工作流程数据",
+    "description": "包含工作流程上下文的描述。"
+  },
+  "saveUIPosition": {
+    "message": "保存UI位置",
+    "description": "保存UI位置的标签。"
+  },
+  "saveUIPositionDesc": {
+    "message": "在刷新之间保存聊天UI位置",
+    "description": "保存UI位置的描述。"
+  },
+  "tools": {
+    "message": "工具",
+    "description": "工具设置部分的标题。"
+  },
+  "workflowAccess": {
+    "message": "工作流程访问",
+    "description": "工作流程访问开关标签。"
+  },
+  "workflowAccessDesc": {
+    "message": "允许聊天查看当前工作流程数据",
+    "description": "工作流程访问的描述。"
+  },
+  "nodeLibraryAccess": {
+    "message": "节点库访问",
+    "description": "节点库访问开关标签。"
+  },
+  "nodeLibraryAccessDesc": {
+    "message": "允许聊天查看已安装的节点列表",
+    "description": "节点库访问的描述。"
+  },
+  "nodeCreation": {
+    "message": "节点创建",
+    "description": "节点创建开关标签。"
+  },
+  "nodeCreationDesc": {
+    "message": "允许聊天在工作流程中添加节点",
+    "description": "节点创建的描述。"
+  },
+  "nodeEditing": {
+    "message": "节点编辑",
+    "description": "节点编辑开关标签。"
+  },
+  "nodeEditingDesc": {
+    "message": "允许聊天编辑工作流程中的节点设置",
+    "description": "节点编辑的描述。"
+  },
+  "nodeRemoval": {
+    "message": "节点删除",
+    "description": "节点删除开关标签。"
+  },
+  "nodeRemovalDesc": {
+    "message": "允许聊天从工作流程中删除节点",
+    "description": "节点删除的描述。"
+  },
+  "affiliateRecommendations": {
+    "message": "联盟推荐",
+    "description": "联盟推荐开关标签。"
+  },
+  "affiliateRecommendationsDesc": {
+    "message": "允许聊天在外部服务推荐中插入联盟链接",
+    "description": "联盟推荐的描述。"
+  },
+  "requiresSubscription": {
+    "message": "需要有效订阅才能禁用",
+    "description": "需要订阅时联盟推荐的工具提示。"
+  },
+  "askAnything": {
+    "message": "关于您的工作流程问我任何问题...",
+    "description": "聊天输入字段的默认占位符文本。"
+  },
+  "createSocialMediaWorkflow": {
+    "message": "创建一个帮助我自动化社交媒体的工作流程。",
+    "description": "社交媒体工作流程的建议占位符文本。"
+  },
+  "optimizeWorkflow": {
+    "message": "您会如何优化这个工作流程？",
+    "description": "工作流程优化的建议占位符文本。"
+  },
+  "createStickyNotes": {
+    "message": "创建解释这个工作流程的便签。",
+    "description": "便签的建议占位符文本。"
+  },
+  "workflowNotWorking": {
+    "message": "为什么我的工作流程不起作用？",
+    "description": "工作流程故障排除的建议占位符文本。"
+  },
+  "useAiAgentNode": {
+    "message": "如何使用AI代理节点？",
+    "description": "AI代理节点使用的建议占位符文本。"
+  },
+  "optimizeThis": {
+    "message": "有没有办法优化这个？",
+    "description": "优化请求的建议占位符文本。"
+  },
+  "explainWorkflow": {
+    "message": "逐步解释这个工作流程。",
+    "description": "工作流程解释的建议占位符文本。"
+  },
+  "thinking": {
+    "message": "思考中",
+    "description": "AI思考时的状态消息。"
+  },
+  "browsingNodes": {
+    "message": "浏览节点中",
+    "description": "AI浏览节点时的状态消息。"
+  },
+  "reviewingNodeConfig": {
+    "message": "审查节点配置中",
+    "description": "AI审查节点配置时的状态消息。"
+  },
+  "examiningConnections": {
+    "message": "检查节点连接中",
+    "description": "AI检查节点连接时的状态消息。"
+  },
+  "reviewingWorkflow": {
+    "message": "审查您的工作流程中",
+    "description": "AI审查工作流程时的状态消息。"
+  },
+  "updatingParameters": {
+    "message": "更新节点参数中",
+    "description": "AI更新参数时的状态消息。"
+  },
+  "removingNodes": {
+    "message": "删除节点中",
+    "description": "AI删除节点时的状态消息。"
+  },
+  "creatingNodes": {
+    "message": "创建节点中",
+    "description": "AI创建节点时的状态消息。"
+  },
+  "processing": {
+    "message": "处理中",
+    "description": "AI处理时的通用状态消息。"
+  },
+  "upgradeToPremiumPlan": {
+    "message": "升级到高级版",
+    "description": "升级到高级计划的按钮文本。"
+  },
+  "getEarlyAccess": {
+    "message": "获取新功能的早期访问权限并移除广告",
+    "description": "升级到高级版的福利描述。"
+  },
+  "goAdFree": {
+    "message": "无广告",
+    "description": "基本计划按钮文本。"
+  },
+  "improveExperience": {
+    "message": "改善您的体验并支持开发者",
+    "description": "基本计划的福利描述。"
+  },
+  "premiumCreditsBonus": {
+    "message": "并开始为下一个高级模型赚取2倍奖励积分",
+    "description": "高级积分奖励的描述。"
+  },
+  "claimN8nCloudTrial": {
+    "message": "申请n8n云托管的14天免费试用",
+    "description": "n8n云试用按钮文本。"
+  },
+  "getBlotato": {
+    "message": "获取Blotato",
+    "description": "Blotato API按钮文本。"
+  },
+  "addSocialMediaPosting": {
+    "message": "为工作流程添加跨平台社交媒体发布功能",
+    "description": "Blotato API的福利描述。"
+  },
+  "getElevenLabs": {
+    "message": "获取ElevenLabs API",
+    "description": "ElevenLabs API按钮文本。"
+  },
+  "addAiVoiceOvers": {
+    "message": "为工作流程添加AI生成的旁白、音乐和声音",
+    "description": "ElevenLabs API的福利描述。"
+  },
+  "getPiApi": {
+    "message": "获取PiAPI",
+    "description": "PiAPI按钮文本。"
+  },
+  "addAiImagesVideos": {
+    "message": "为工作流程添加AI生成的图像和视频",
+    "description": "PiAPI的福利描述。"
+  },
+  "newChat": {
+    "message": "新聊天",
+    "description": "新聊天按钮和工具提示文本。"
+  },
+  "dragToReposition": {
+    "message": "拖动以重新定位聊天（双击重置）",
+    "description": "拖动手柄工具提示。"
+  },
+  "dragToRepositionChat": {
+    "message": "拖动以重新定位聊天（双击重置）",
+    "description": "拖动手柄工具提示。"
+  },
+  "unexpectedError": {
+    "message": "发生意外错误",
+    "description": "通用错误消息。"
+  },
+  "authenticationError": {
+    "message": "认证错误：请验证您的API密钥有效且未过期。",
+    "description": "认证问题的错误消息。"
+  },
+  "rateLimitExceeded": {
+    "message": "速率限制超出：您已达到OpenAI的速率限制。请稍后再试。",
+    "description": "速率限制问题的错误消息。"
+  },
+  "insufficientCredits": {
+    "message": "积分不足：您的OpenAI账户没有足够的积分来处理此请求。",
+    "description": "积分不足的错误消息。"
+  },
+  "invalidApiKey": {
+    "message": "无效的API密钥：提供的API密钥无效或格式错误。",
+    "description": "无效API密钥的错误消息。"
+  },
+  "contextWindowExceeded": {
+    "message": "上下文窗口超出：对话太长，模型无法处理。请开始新聊天或减少输入长度。",
+    "description": "上下文窗口超出的错误消息。"
+  },
+  "openAiApiError": {
+    "message": "OpenAI API错误",
+    "description": "OpenAI API特定错误消息的一部分。"
+  },
+  "logout": {
+    "message": "登出",
+    "description": "登出按钮文本。"
+  },
+  "signInUsingEmail": {
+    "message": "使用您的电子邮件登录",
+    "description": "使用电子邮件登录的标题。"
+  },
+  "weSendSecureLoginLink": {
+    "message": "我们将向您的电子邮件发送一个安全的登录链接。请确保在同一浏览器中打开以登录。",
+    "description": "电子邮件登录过程描述。"
+  },
+  "email": {
+    "message": "电子邮件",
+    "description": "电子邮件字段标签。"
+  },
+  "loginLinkSent": {
+    "message": "登录链接已发送！请检查您的电子邮件。",
+    "description": "发送登录链接后的成功消息。"
+  },
+  "sendLoginLink": {
+    "message": "发送登录链接",
+    "description": "发送登录链接按钮文本。"
+  },
+  "goBack": {
+    "message": "返回",
+    "description": "返回按钮文本。"
+  },
+  "unlockMoreFeatures": {
+    "message": "解锁更多功能",
+    "description": "解锁更多功能的标题。"
+  },
+  "goAdFreeEnhanceWorkflowAutomation": {
+    "message": "去除广告并使用高级功能增强工作流程自动化。",
+    "description": "解锁高级功能的描述。"
+  },
+  "alreadyHaveAnAccount": {
+    "message": "已有账户？",
+    "description": "已有账户的用户的文本。"
+  },
+  "signIn": {
+    "message": "登录",
+    "description": "登录按钮文本。"
+  },
+  "manageSubscriptionWithStripe": {
+    "message": "通过Stripe管理您的订阅",
+    "description": "通过Stripe管理订阅的链接文本。"
+  },
+  "errorLoadingSettings": {
+    "message": "错误：无法加载设置。",
+    "description": "加载设置错误消息。"
+  },
+  "upgradeYourPlan": {
+    "message": "升级您的计划",
+    "description": "升级计划的标题。"
+  },
+  "enhanceWorkflowAutomation": {
+    "message": "使用高级功能增强工作流程自动化。",
+    "description": "升级计划的描述。"
+  },
+  "getSubscription": {
+    "message": "获取订阅",
+    "description": "获取订阅的标题。"
+  },
+  "enhanceWorkflowAutomationSubscription": {
+    "message": "使用我们的订阅计划增强工作流程自动化。",
+    "description": "获取订阅的描述。"
+  },
+  "freePlan": {
+    "message": "免费",
+    "description": "免费计划标签。"
+  },
+  "freePlanDescription": {
+    "message": "偶尔显示广告",
+    "description": "免费计划的描述。"
+  },
+  "adFreePlan": {
+    "message": "无广告",
+    "description": "无广告计划标签。"
+  },
+  "popular": {
+    "message": "热门",
+    "description": "表示热门计划的标签。"
+  },
+  "currentPlan": {
+    "message": "当前计划",
+    "description": "表示用户当前计划的标签。"
+  },
+  "premiumPlan": {
+    "message": "高级",
+    "description": "高级计划标签。"
+  },
+  "earlyAccess": {
+    "message": "早期访问",
+    "description": "表示计划早期访问的标签。"
+  },
+  "perMonth": {
+    "message": "/月",
+    "description": "表示每月价格的文本。"
+  },
+  "monthly": {
+    "message": "月度",
+    "description": "月度计费选项标签。"
+  },
+  "yearly": {
+    "message": "年度",
+    "description": "年度计费选项标签。"
+  },
+  "selectUpgrade": {
+    "message": "选择升级",
+    "description": "未选择升级时的按钮文本。"
+  },
+  "upgrade": {
+    "message": "升级",
+    "description": "升级按钮文本。"
+  },
+  "saveWithAnnual": {
+    "message": "年度计费节省{percentage}%",
+    "description": "年度计费节省模态框标题，{percentage}替换为节省百分比。"
+  },
+  "twoMonthsFree": {
+    "message": "2个月免费",
+    "description": "年度计费表示2个月免费的文本。"
+  },
+  "savingsMessage": {
+    "message": "切换到年度计费可获得<span class=\"plasmo-font-bold plasmo-text-primary\">{freeMonths}</span>并节省${savings}。",
+    "description": "年度计费节省消息，{freeMonths}和{savings}是占位符。"
+  },
+  "monthlyCost": {
+    "message": "月度：",
+    "description": "节省模态框中的月度成本标签。"
+  },
+  "annualCost": {
+    "message": "年度：",
+    "description": "节省模态框中的年度成本标签。"
+  },
+  "yourSavings": {
+    "message": "您的节省：",
+    "description": "节省模态框中的节省金额标签。"
+  },
+  "switchToAnnual": {
+    "message": "切换到年度",
+    "description": "切换到年度计费按钮文本。"
+  },
+  "noThanks": {
+    "message": "不，谢谢",
+    "description": "拒绝年度计费按钮文本。"
+  },
+  "earlyAccessTooltip1": {
+    "message": "获取新功能的早期访问权限",
+    "description": "早期访问工具提示第一行。"
+  },
+  "earlyAccessTooltip2": {
+    "message": "即将推出：",
+    "description": "早期访问工具提示第二行。"
+  },
+  "earlyAccessTooltip3": {
+    "message": "高级AI模型，无需API密钥",
+    "description": "早期访问工具提示第三行。"
+  },
+  "earlyAccessTooltip4": {
+    "message": "早期用户从开始日期起获得追溯积分，并有2倍奖励",
+    "description": "早期访问工具提示第四行。"
+  },
+  "analyzingNodeIssues": {
+    "message": "分析节点问题",
+    "description": "当AI在创建节点后分析节点问题时的状态消息。"
+  },
+  "modelSubtitleO3": {
+    "message": "最强大的推理模型",
+    "description": "在提供商选择中o3模型的副标题。"
+  },
+  "modelSubtitleGpt41": {
+    "message": "旗舰GPT模型",
+    "description": "在提供商选择中gpt-4.1模型的副标题。"
+  },
+  "modelSubtitleO4Mini": {
+    "message": "更快、更实惠的推理模型",
+    "description": "在提供商选择中o4-mini模型的副标题。"
+  },
+  "modelSubtitleGemini25Pro": {
+    "message": "最强大的思维模型",
+    "description": "Gemini 2.5 Pro 模型的副标题。"
+  },
+  "modelSubtitleGemini25Flash": {
+    "message": "最佳性价比",
+    "description": "Gemini 2.5 Flash 模型的副标题。"
+  },
+  "modelSubtitleGemini20Flash": {
+    "message": "最经济实惠的模型",
+    "description": "Gemini 2.0 Flash 模型的副标题。"
+  },
+  "providerSubtitleRecommended": {
+    "message": "推荐",
+    "description": "推荐提供商的副标题。"
+  },
+  "customSystemInstructions": {
+    "message": "自定义系统指令",
+    "description": "自定义系统指令设置的标签。"
+  },
+  "customSystemInstructionsDesc": {
+    "message": "输入您希望在每次聊天的初始系统提示中包含的指令。",
+    "description": "自定义系统指令设置的描述。"
+  },
+  "enterCustomInstructionsPlaceholder": {
+    "message": "在此输入您的自定义指令",
+    "description": "自定义系统指令输入的占位符文本。"
+  },
+  "customInstructionsPremiumOnly": {
+    "message": "此功能目前为 n8nChat Premium 会员提供早期访问。请登录 n8nChat 高级账户以使用此功能。",
+    "description": "当自定义指令功能需要高级访问时显示的占位符文本。"
+  }
+} 
