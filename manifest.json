@@ -34,14 +34,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.n8n.*/*",
-        "https://n8n-*.onrender.com/*",
-        "https://*.onrender.com/*",
-        "https://*.n8ncloud.com/*",
-        "https://*.n8nchat.com/*",
-        "https://n8nchat.com/*",
-        "https://n8n.io/*",
-        "https://*/*"
+        "https://n8n-4y8y.onrender.com/*"
       ],
       "js": [
         "content.7f229555.js"
@@ -51,14 +44,7 @@
     }
   ],
   "host_permissions": [
-    "https://*.n8n.*/*",
-    "https://n8n-*.onrender.com/*",
-    "https://*.onrender.com/*",
-    "https://*.n8ncloud.com/*",
-    "https://*.n8nchat.com/*",
-    "https://n8nchat.com/*",
-    "https://n8n.io/*",
-    "https://*/*"
+    "https://n8n-4y8y.onrender.com/*"
   ],
   "optional_permissions": [],
   "web_accessible_resources": [
