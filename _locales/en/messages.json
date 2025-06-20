@@ -500,12 +500,16 @@
     "description": "Label for the free plan."
   },
   "freePlanDescription": {
-    "message": "Occasionally displays ads",
+    "message": "Full access to all features.",
     "description": "Description for the free plan."
   },
   "adFreePlan": {
-    "message": "Ad-Free",
-    "description": "Label for the ad-free plan."
+    "message": "Free #2",
+    "description": "Label for the second free plan."
+  },
+  "premiumPlan": {
+    "message": "Free #2",
+    "description": "Label for the second free plan."
   },
   "popular": {
     "message": "Popular",
@@ -514,10 +518,6 @@
   "currentPlan": {
     "message": "Current Plan",
     "description": "Label indicating the user's current plan."
-  },
-  "premiumPlan": {
-    "message": "Premium",
-    "description": "Label for the premium plan."
   },
   "earlyAccess": {
     "message": "Early Access",
