@@ -1,4 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Attempt silent authentication to suppress Puter.js popup
+    if (typeof puter !== 'undefined' && puter.auth && typeof puter.auth.silent === 'function') {
+        try {
+            await puter.auth.silent();
+        } catch (e) {
+            // Silent auth failed, but do not show popup
+        }
+    }
+
     const modelSelect = document.getElementById('model-select');
     const generateBtn = document.getElementById('generate');
     const promptInput = document.getElementById('prompt');
