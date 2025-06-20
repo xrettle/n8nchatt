@@ -1,1 +1,46 @@
-<!DOCTYPE html><html><head><link rel="stylesheet" href="/popup.df89bfed.css"><script src="/esm-browser.1baef823.js"></script><script src="/stateManager.77529bc1.js"></script><title>n8n Chat</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body> <div id="__plasmo"></div> <script src="/popup.100f6462.js" defer></script> </body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>n8n Chat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://js.puter.com/v2/"></script>
+    <style>
+      body {
+        width: 800px;
+        height: 600px;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      #model-select, #prompt, #generate {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      #response {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        min-height: 200px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+</head>
+<body> 
+  <div class="container">
+    <h1>OpenRouter Model Explorer</h1>
+    <select id="model-select"></select>
+    <textarea id="prompt" rows="4" placeholder="Enter your prompt here..."></textarea>
+    <button id="generate">Generate</button>
+    <div id="loading" style="display: none; margin-top: 10px;">Generating response...</div>
+    <div id="response"></div>
+  </div>
+  <script src="openrouter.js" defer></script> 
+</body>
+</html>
